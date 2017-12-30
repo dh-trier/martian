@@ -1,0 +1,8 @@
+m1emotions <- get_nrc_sentiment(m1sentences)
+> m2emotions <- get_nrc_sentiment(m2sentences)
+> sort(colSums(prop.table(m1emotions[, 1:8])))
+     disgust        anger     surprise          joy      sadness         fear        trust anticipation 
+  0.07773035   0.09249377   0.09311633   0.10814657   0.11339381   0.12966916   0.18178584   0.20366418 
+> sort(colSums(prop.table(m2emotions[, 1:8])))
+     disgust     surprise        anger          joy      sadness         fear        trust anticipation 
+  0.07720176   0.09221082   0.09272837   0.10929009   0.11222289   0.12964720   0.18347279   0.20322608 
