@@ -68,7 +68,7 @@ def define_itemdata(itemid, item1,item2):
     Defines the various pieces of information to be collected for each pair.
     Returns a dictionary that already includes the pairs' text but not data.
     """
-    itemdata = {"itemid":itemid, "version1":item1, "version2":item2, "levenshtein":"NA", "ld-class":"NA", "maintype":"NA", "insertion":0, "deletion":0, "capitalization":0, "whitespace":0, "italics":0, "punctuation":0, "hyphenation":0, "numbers":0, "condensation":0, "expansion":0, "xxTBCxx":0}
+    itemdata = {"itemid":itemid, "version1":item1, "version2":item2, "lev-dist":"NA", "lev-dist-class":"NA", "lendiff-chars":"NA", "lendiff-words":"NA", "category":"NA", "main-type":"NA", "insertion":0, "deletion":0, "capitalization":0, "whitespace":0, "italics":0, "punctuation":0, "hyphenation":0, "numbers":0, "condensation":0, "expansion":0, "tbc":0}
     return itemdata
 
 
@@ -77,7 +77,7 @@ def define_columnorder():
     Defines the order of the columns, purely for display.
     Returns a list.
     """
-    columns = ["itemid", "version1", "version2", "maintype", "levenshtein", "ld-class", "insertion", "deletion", "capitalization", "whitespace", "italics", "punctuation", "hyphenation", "numbers", "condensation", "expansion", "xxTBCxx"]
+    columns = ["itemid", "version1", "version2", "category", "main-type", "lev-dist", "lev-dist-class", "lendiff-chars", "lendiff-words", "insertion", "deletion", "capitalization", "whitespace", "italics", "punctuation", "hyphenation", "numbers", "condensation", "expansion", "tbc"]
     return columns
 
 
@@ -89,48 +89,78 @@ def perform_itemanalysis(itemdata, item1, item2):
     the corresponding category is assigned. 
     More than one category can be assigned to an item. 
     """
+    # Test for insertion of new word(s)
     if len(item1) == 0:
         itemdata["insertion"] = 1
-        itemdata["maintype"] = "insertion"
+        itemdata["main-type"] = "insertion"
+        itemdata["category"] = "other"
+    # Test for complete deletion of word(s)
     elif len(item2) == 0:
         itemdata["deletion"] = 1
-        itemdata["maintype"] = "deletion"
-    elif item1.lower() == item2.lower(): 
+        itemdata["main-type"] = "deletion"
+        itemdata["category"] = "other"
+    # Test for difference in upper/lower case
+    elif item1.lower() == item2.lower():        
         itemdata["capitalization"] = 1
-        itemdata["maintype"] = "capitalization"
+        itemdata["main-type"] = "capitalization"
+        itemdata["category"] = "script-identifiable"
+    # Test for difference in whitespace
     elif re.sub(" ","",item1) == re.sub(" ","",item2): 
         itemdata["whitespace"] = 1
-        itemdata["maintype"] = "whitespace"
+        itemdata["main-type"] = "whitespace"
+        itemdata["category"] = "script identifiable"
+    # Test for difference in italics
     elif re.sub("\*","",item1) == re.sub("\*","",item2): 
         itemdata["italics"] = 1
-        itemdata["maintype"] = "italics"
+        itemdata["main-type"] = "italics"
+        itemdata["category"] = "script identifiable"
+    # Test for difference in punctuation
     elif re.sub("[\",';:!?\.\(\)]","",item1) == re.sub("[\",';:!?\.\(\)]","",item2): 
         itemdata["punctuation"] = 1
-        itemdata["maintype"] = "punctuation"
+        itemdata["main-type"] = "punctuation"
+        itemdata["category"] = "script identifiable"
+    # Test for difference in hyphenation
     elif re.sub("\-","",item1) == re.sub(" ","",item2): 
         itemdata["hyphenation"] = 1
-        itemdata["maintype"] = "hyphenation"
+        itemdata["main-type"] = "hyphenation"
+        itemdata["category"] = "script identifiable"
+    # Test for difference in hyphenation
     elif re.sub(" ","",item1) == re.sub("\-","",item2): 
         itemdata["hyphenation"] = 1
-        itemdata["maintype"] = "hyphenation"
+        itemdata["main-type"] = "hyphenation"
+        itemdata["category"] = "script identifiable"
+    # Test for difference involving (but not limited to) numbers
     elif bool(re.search(r'\d', item1+item2)) == True:
         itemdata["numbers"] = 1
-        itemdata["maintype"] = "numbers"
+        itemdata["main-type"] = "numbers"
+        itemdata["category"] = "script identifiable"
+    # Test for whether the length is substantially reduced
     elif len(item1) > len(item2)+3:
         itemdata["condensation"] = 1
-        itemdata["maintype"] = "condensation"
+        itemdata["main-type"] = "condensation"
+        itemdata["category"] = "other"
+    # Test for whether the length is substantially expanded
     elif len(item2) > len(item1)+3:
         itemdata["expansion"] = 1
-        itemdata["maintype"] = "expansion"
+        itemdata["main-type"] = "expansion"
+        itemdata["category"] = "other"
+    # If none of the above could be identified, mark it for human inspection.
     else: 
-        itemdata["xxTBCxx"] = 1
-        itemdata["maintype"] = "xxTBCxx"
+        itemdata["tbc"] = 1
+        itemdata["main-type"] = "tbc"
+        itemdata["category"] = "other"
+    # Information about the amount of condensation or expansion in characters
+    itemdata["lendiff-chars"] = len(item2) - len(item1)
+    # Information about the amount of condensation or expansion in words
+    itemdata["lendiff-words"] = len(re.split("\W+", item2)) - len(re.split("\W+", item1))
+    # Information about the Levenshtein distance
     levenshtein = ld.distance(item1, item2)
-    itemdata["levenshtein"] = levenshtein
+    itemdata["lev-dist"] = levenshtein
+    # Classification of items by large or small Levenshtein distance
     if levenshtein > 5: 
-        itemdata["ld-class"] = "major"
+        itemdata["lev-dist-class"] = "major"
     else: 
-        itemdata["ld-class"] = "minor"
+        itemdata["lev-dist-class"] = "minor"
     return itemdata
 
 
