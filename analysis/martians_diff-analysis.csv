@@ -2,7 +2,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 1-1	Chapter	CHAPTER	capitalization	6	major	0	0	1	0	0	0	0	0	0	0	0
 6-1	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 6-2	a	the	xxTBCxx	3	minor	0	0	0	0	0	0	0	0	0	0	1
-6-3	two months	month	condensation	5	major	0	0	0	0	0	0	0	0	1	0	0
+6-3	two months	month	condensation	5	minor	0	0	0	0	0	0	0	0	1	0	0
 6-4	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 13-1	say	say,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 15-1	Cause	'Cause	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -25,14 +25,14 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 58-1	14	fourteen	numbers	8	major	0	0	0	0	0	0	0	1	0	0	0
 61-1	tended	tend	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
 62-1		that	insertion	4	minor	1	0	0	0	0	0	0	0	0	0	0
-63-1	3	three	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+63-1	3	three	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 66-1	"""Mars Ascent Vehicle."""	Mars ascent vehicle.	xxTBCxx	4	minor	0	0	0	0	0	0	0	0	0	0	1
 69-1	were	had been	expansion	7	major	0	0	0	0	0	0	0	0	0	1	0
 69-2	pass	have passed	expansion	7	major	0	0	0	0	0	0	0	0	0	1	0
 69-3	go back to Earth	gone home	condensation	12	major	0	0	0	0	0	0	0	0	1	0	0
 71-1	13	thirteen	numbers	8	major	0	0	0	0	0	0	0	1	0	0	0
 73-1	24	twenty-four	numbers	11	major	0	0	0	0	0	0	0	1	0	0	0
-76-1	dying. Then	dying, and	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+76-1	dying. Then	dying, and	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 77-1	km/hr.	kph.	xxTBCxx	3	minor	0	0	0	0	0	0	0	0	0	0	1
 78-1	km/hr	kph	xxTBCxx	3	minor	0	0	0	0	0	0	0	0	0	0	1
 79-1		flight space	insertion	12	major	1	0	0	0	0	0	0	0	0	0	0
@@ -74,7 +74,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 146-1	moment I	moment-1	numbers	2	minor	0	0	0	0	0	0	0	1	0	0	0
 148-1	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 150-1	Entering	Once inside	xxTBCxx	7	major	0	0	0	0	0	0	0	0	0	0	1
-153-1	9 stitches	nine stitches,	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+153-1	9 stitches	nine stitches,	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 155-1	communication	communications	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
 159-1	communication	communications	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
 163-1	24	twenty-four	numbers	11	major	0	0	0	0	0	0	0	1	0	0	0
@@ -101,7 +101,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 192-1	31	thirty-one	numbers	10	major	0	0	0	0	0	0	0	1	0	0	0
 193-1	56	fifty-six	numbers	9	major	0	0	0	0	0	0	0	1	0	0	0
 194-1	one or	one,or	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
-195-1	50	fifty	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+195-1	50	fifty	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 196-1	300	three hundred	numbers	13	major	0	0	0	0	0	0	0	1	0	0	0
 199-1		I'm pretty flush on EVA suits, too.	insertion	35	major	1	0	0	0	0	0	0	0	0	0	0
 200-1		Each crew member had two space suits: a flight spacesuit to wear during descent and ascent, and the much bulkier and more robust EVA suit to wear when doing surface operations.	insertion	176	major	1	0	0	0	0	0	0	0	0	0	0
@@ -156,7 +156,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 310-1	or	and	xxTBCxx	3	minor	0	0	0	0	0	0	0	0	0	0	1
 313-1	planter-box,	box,	condensation	8	major	0	0	0	0	0	0	0	0	1	0	0
 314-1	earth,	Earth,	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
-324-1	7	seven	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+324-1	7	seven	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 329-1	"hippies!"" I would scoff."		deletion	24	major	0	1	0	0	0	0	0	0	0	0	0
 330-1	"""Look"	hippies!	xxTBCxx	8	major	0	0	0	0	0	0	0	0	0	0	1
 331-1		Look	insertion	4	minor	1	0	0	0	0	0	0	0	0	0	0
@@ -195,7 +195,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 406-1	it	the dirt	expansion	6	major	0	0	0	0	0	0	0	0	0	1	0
 412-1	Water Reclaimer.	water reclaimer.	capitalization	2	minor	0	0	1	0	0	0	0	0	0	0	0
 414-1	"figured ""why"	"figured, ""Why"	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
-416-1	3	three	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+416-1	3	three	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 417-1	each. There are	each, making	xxTBCxx	10	major	0	0	0	0	0	0	0	0	0	0	1
 418-1	Looks like I won't be able to cover the whole surface of the Hab with fertile soil.		deletion	83	major	0	1	0	0	0	0	0	0	0	0	0
 420-1	cm.	centimeters.	expansion	9	major	0	0	0	0	0	0	0	0	0	1	0
@@ -208,7 +208,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 427-1		For today,	insertion	10	major	1	0	0	0	0	0	0	0	0	0	0
 427-2	hands, at least.		deletion	16	major	0	1	0	0	0	0	0	0	0	0	0
 428-1	I spread the sand out in a comer of the Hab, about 10 cm thick.	goal was five square meters.	numbers	51	major	0	0	0	0	0	0	0	1	0	0	0
-429-1	a few		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+429-1	a few		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 429-2	crewmates	crew-mates	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 429-3	(with	with	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 429-4	perimeter).	perimeter.	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -254,7 +254,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 508-1		So	insertion	2	minor	1	0	0	0	0	0	0	0	0	0	0
 508-2	to bring that up to 1000. I need	almost	numbers	30	major	0	0	0	0	0	0	0	1	0	0	0
 509-1		That means	insertion	10	major	1	0	0	0	0	0	0	0	0	0	0
-509-2	I need	more	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+509-2	I need	more	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 517-1	102.	102,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 520-1	four	4	numbers	4	minor	0	0	0	0	0	0	0	1	0	0	0
 522-1	in ease,		deletion	8	major	0	1	0	0	0	0	0	0	0	0	0
@@ -289,16 +289,16 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 577-1	son-of-a-bitch	son of a bitch	hyphenation	3	minor	0	0	0	0	0	0	1	0	0	0	0
 578-1	12	twelve	numbers	6	major	0	0	0	0	0	0	0	1	0	0	0
 580-1		for us	insertion	6	major	1	0	0	0	0	0	0	0	0	0	0
-583-1	in to 4	into four	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+583-1	in to 4	into four	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 583-2	2	two	numbers	3	minor	0	0	0	0	0	0	0	1	0	0	0
 586-1	God speed,	Godspeed,	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 588-1		at least	insertion	8	major	1	0	0	0	0	0	0	0	0	0	0
 588-2	full sized	full-sized	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 591-1	25.5 C,	25.5°C, I can make	numbers	12	major	0	0	0	0	0	0	0	1	0	0	0
 591-2	will		deletion	4	minor	0	1	0	0	0	0	0	0	0	0	0
-591-3	quicker.	faster.	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+591-3	quicker.	faster.	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 592-1	"""sunlight"""	"""sunlight,"""	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
-594-1	40	forty	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+594-1	40	forty	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 598-1	calories	calories,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 600-1	Albums	albums	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 607-1	"""Three's Company"""	Three's Company	punctuation	2	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -317,9 +317,9 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 631-2	dead	dead,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 632-1	case	case,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 639-1	pop tents	pop-tents	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
-641-1	fucking	screwing	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+641-1	fucking	screwing	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 646-1	by the	by.the	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
-651-1	Botanist / Mechanical Engineer	botanist/mechanical engineer	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+651-1	Botanist / Mechanical Engineer	botanist/mechanical engineer	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 651-2	was).	was.)	punctuation	2	minor	0	0	0	0	0	1	0	0	0	0	0
 652-1	Cleric.	cleric.	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 653-1	"Water""."	"Water."""	punctuation	2	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -344,7 +344,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 696-1		away	insertion	4	minor	1	0	0	0	0	0	0	0	0	0	0
 696-2	away		deletion	4	minor	0	1	0	0	0	0	0	0	0	0	0
 698-1	is not	isn't	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
-698-2	shit in to	mass into	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+698-2	shit in to	mass into	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 699-1	It left the	The	condensation	9	major	0	0	0	0	0	0	0	0	1	0	0
 699-2	behind.	are still here.	expansion	12	major	0	0	0	0	0	0	0	0	0	1	0
 701-1	high pressure	high-pressure	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
@@ -400,7 +400,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 770-1	need	n?ed	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
 770-2	L	liters	expansion	6	major	0	0	0	0	0	0	0	0	0	1	0
 771-1	"""tank""."	"""tank."""	punctuation	2	minor	0	0	0	0	0	1	0	0	0	0	0
-774-1	50	fifty	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+774-1	50	fifty	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 779-1	20	twenty	numbers	6	major	0	0	0	0	0	0	0	1	0	0	0
 779-2	L	liters	expansion	6	major	0	0	0	0	0	0	0	0	0	1	0
 780-1	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
@@ -423,7 +423,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 812-2	Hydrazine	hydrazine	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 820-1	all		deletion	3	minor	0	1	0	0	0	0	0	0	0	0	0
 820-2	Hydrazine and		deletion	13	major	0	1	0	0	0	0	0	0	0	0	0
-821-1	having	bringing	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+821-1	having	bringing	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 821-2		of hydrazine	insertion	12	major	1	0	0	0	0	0	0	0	0	0	0
 822-1	back-of-the-napkin	back-of-the-napkin,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 822-2	up, so why not bring	up. So I brought	condensation	13	major	0	0	0	0	0	0	0	0	1	0	0
@@ -462,7 +462,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 891-1	catholic.	Catholic.	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 894-1	son-of-a-bitch.	son of a bitch.	hyphenation	3	minor	0	0	0	0	0	0	1	0	0	0	0
 897-1	Ruining	If ruining	xxTBCxx	4	minor	0	0	0	0	0	0	0	0	0	0	1
-897-2	Mars Vampires.	Martian vampires.	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+897-2	Mars Vampires.	Martian vampires.	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 901-1	to...	to ....	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
 904-1	Fucker	It	condensation	6	major	0	0	0	0	0	0	0	0	1	0	0
 905-1	Hydrazine	hydrazine	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
@@ -505,13 +505,13 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 972-1	L	liters	expansion	6	major	0	0	0	0	0	0	0	0	0	1	0
 972-2	15	fifteen	numbers	7	major	0	0	0	0	0	0	0	1	0	0	0
 974-1	50 L	50-liter	numbers	6	major	0	0	0	0	0	0	0	1	0	0	0
-974-2		added	insertion	5	major	1	0	0	0	0	0	0	0	0	0	0
+974-2		added	insertion	5	minor	1	0	0	0	0	0	0	0	0	0	0
 974-3	L	liters	expansion	6	major	0	0	0	0	0	0	0	0	0	1	0
-974-4	added		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+974-4	added		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 975-1	is	was	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
 976-1	I've	I'd	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
 976-2	L	liters	expansion	6	major	0	0	0	0	0	0	0	0	0	1	0
-976-3	regulator	reclaimer	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+976-3	regulator	reclaimer	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 976-4	spacesuit-now-watertank.	space-suit-turned-water-tank.	expansion	7	major	0	0	0	0	0	0	0	0	0	1	0
 978-1	L	liters	expansion	6	major	0	0	0	0	0	0	0	0	0	1	0
 985-1	Oxygenator),	oxygenator),	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
@@ -563,7 +563,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 1105-1	spacesuit.	space suit.	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 1108-1	Buy	By	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
 1109-1	5 C	5°C	numbers	1	minor	0	0	0	0	0	0	0	1	0	0	0
-1110-1	seeing	watching	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+1110-1	seeing	watching	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 1115-1	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 1116-1	1 C,	1°C,	numbers	1	minor	0	0	0	0	0	0	0	1	0	0	0
 1117-1	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
@@ -620,9 +620,9 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 1232-1		in	insertion	2	minor	1	0	0	0	0	0	0	0	0	0	0
 1233-1	Oxygenator.	oxygenator.	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 1236-1	Atmospheric Regulator.	atmospheric regulator.	capitalization	2	minor	0	0	1	0	0	0	0	0	0	0	0
-1238-1	Water		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+1238-1	Water		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 1239-1	Reclaimer,	water reclaimer,	expansion	7	major	0	0	0	0	0	0	0	0	0	1	0
-1241-1	fuck	screw	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+1241-1	fuck	screw	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 1243-1	Taking	I took	xxTBCxx	6	major	0	0	0	0	0	0	0	0	0	0	1
 1243-2	now), I	now) and	xxTBCxx	4	minor	0	0	0	0	0	0	0	0	0	0	1
 1243-3	some		deletion	4	minor	0	1	0	0	0	0	0	0	0	0	0
@@ -671,7 +671,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 1307-1	featherbed	feather bed	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 1308-1	Anyway,	Eventually,	expansion	7	major	0	0	0	0	0	0	0	0	0	1	0
 1313-1	lately, this	lately. This	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
-1314-1	fucking	screwing	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+1314-1	fucking	screwing	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 1317-1	L	liters	expansion	6	major	0	0	0	0	0	0	0	0	0	1	0
 1318-1	L	liters	expansion	6	major	0	0	0	0	0	0	0	0	0	1	0
 1319-1		be able to	insertion	10	major	1	0	0	0	0	0	0	0	0	0	0
@@ -729,7 +729,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 1419-1	looked down.	turned to face him.	expansion	14	major	0	0	0	0	0	0	0	0	0	1	0
 1424-1	"""Again:"	"""Again,"	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 1425-1	a		deletion	1	minor	0	1	0	0	0	0	0	0	0	0	0
-1438-1	to do		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+1438-1	to do		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 1438-2		to	insertion	2	minor	1	0	0	0	0	0	0	0	0	0	0
 1449-1	5	4	numbers	1	minor	0	0	0	0	0	0	0	1	0	0	0
 1452-1	"""Ok,"	"""Okay,"	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
@@ -764,7 +764,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 1500-1		Seeing him in jeans and a T-shirt was even more unusual.	insertion	56	major	1	0	0	0	0	0	0	0	0	0	0
 1502-1	He asked, looking mildly annoyed.		deletion	33	major	0	1	0	0	0	0	0	0	0	0	0
 1503-1	"""Yeah,"""	he asked with the scowl of a man operating on two hours of sleep.	expansion	62	major	0	0	0	0	0	0	0	0	0	1	0
-1504-1		"""Yes"""	insertion	5	major	1	0	0	0	0	0	0	0	0	0	0
+1504-1		"""Yes"""	insertion	5	minor	1	0	0	0	0	0	0	0	0	0	0
 1508-1	"""Urn,"""	"""Um,"""	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
 1509-1	"""Urn,"	"""Um,"	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
 1521-1		winced at her own awkwardness and	insertion	33	major	1	0	0	0	0	0	0	0	0	0	0
@@ -803,7 +803,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 1601-2	be	have been	expansion	7	major	0	0	0	0	0	0	0	0	0	1	0
 1606-1	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 1607-1	13	thirteen	numbers	8	major	0	0	0	0	0	0	0	1	0	0	0
-1608-1	table	desk	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+1608-1	table	desk	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 1612-1	frowned.	absently rotated the picture to be parallel with the edges of his desk.	expansion	65	major	0	0	0	0	0	0	0	0	0	1	0
 1624-1	endanger	have endangered	expansion	7	major	0	0	0	0	0	0	0	0	0	1	0
 1625-1	interrupted.	said.	condensation	10	major	0	0	0	0	0	0	0	0	1	0	0
@@ -855,7 +855,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 1758-1	"seats,"""	"seats."""	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 1760-1	A reporter	Bryan Hess from NBC	expansion	16	major	0	0	0	0	0	0	0	0	0	1	0
 1763-1	mingled a bit,	milled about and	xxTBCxx	9	major	0	0	0	0	0	0	0	0	0	0	1
-1763-2	short	brief	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+1763-2	short	brief	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 1764-1	short,	short	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 1765-1	hour.	hour,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 1765-2	Mars,	Mars	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -903,7 +903,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 1877-1	Using less fuel	It left before us	xxTBCxx	14	major	0	0	0	0	0	0	0	0	0	0	1
 1877-2	taking a longer route, it		deletion	25	major	0	1	0	0	0	0	0	0	0	0	0
 1877-3	there	here	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
-1877-4	as us.	we did.	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+1877-4	as us.	we did.	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 1879-1	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 1882-1	3,200	Thirty-two hundred	numbers	18	major	0	0	0	0	0	0	0	1	0	0	0
 1884-1	km	kilometers	expansion	8	major	0	0	0	0	0	0	0	0	0	1	0
@@ -918,7 +918,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 1909-1	l's	I's	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
 1916-1	5	five	numbers	4	minor	0	0	0	0	0	0	0	1	0	0	0
 1917-1	24/4	twenty-four and a half	numbers	22	major	0	0	0	0	0	0	0	1	0	0	0
-1918-1	W.	watts.	expansion	5	major	0	0	0	0	0	0	0	0	0	1	0
+1918-1	W.	watts.	expansion	5	minor	0	0	0	0	0	0	0	0	0	1	0
 1919-1	Wh	watt hours	expansion	9	major	0	0	0	0	0	0	0	0	0	1	0
 1921-1	Me.	me.	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 1922-1	"""warm blooded"""	"""warm-blooded"""	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
@@ -938,13 +938,13 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 1943-2	those spoiled Earthlings get).	Earth gets).	condensation	20	major	0	0	0	0	0	0	0	0	1	0	0
 1944-1	28	twenty-eight	numbers	12	major	0	0	0	0	0	0	0	1	0	0	0
 1945-1	14	fourteen	numbers	8	major	0	0	0	0	0	0	0	1	0	0	0
-1946-1	7	seven	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+1946-1	7	seven	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 1951-1	l's	1's	numbers	1	minor	0	0	0	0	0	0	0	1	0	0	0
 1956-1	is	was	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
 1956-2	too. It's	too,	condensation	6	major	0	0	0	0	0	0	0	0	1	0	0
 1959-1	things	thing	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
 1968-1	6	six	numbers	3	minor	0	0	0	0	0	0	0	1	0	0	0
-1968-2		extra	insertion	5	major	1	0	0	0	0	0	0	0	0	0	0
+1968-2		extra	insertion	5	minor	1	0	0	0	0	0	0	0	0	0	0
 1968-3	canvas,	canvas	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 1971-1	it	the Hab	expansion	7	major	0	0	0	0	0	0	0	0	0	1	0
 1973-1	Hab		deletion	3	minor	0	1	0	0	0	0	0	0	0	0	0
@@ -952,7 +952,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 1975-1	6	six	numbers	3	minor	0	0	0	0	0	0	0	1	0	0	0
 1975-2	1x6	one by six	numbers	10	major	0	0	0	0	0	0	0	1	0	0	0
 1976-1	10 cm wide	10-centimeter-wide	numbers	10	major	0	0	0	0	0	0	0	1	0	0	0
-1977-1	10 m	10-meter	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+1977-1	10 m	10-meter	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 1979-1	poor-man's	poor man's	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 1980-1	"""Wagon Train"""	Wagon Train	punctuation	2	minor	0	0	0	0	0	1	0	0	0	0	0
 1990-1	Unplugging	I unplugged	xxTBCxx	6	major	0	0	0	0	0	0	0	0	0	0	1
@@ -978,7 +978,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 2033-1	tunnels	tunnels,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 2041-1	back	back,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 2042-1	39	thirty-nine	numbers	11	major	0	0	0	0	0	0	0	1	0	0	0
-2042-2	40	forty	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+2042-2	40	forty	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 2042-3	re-sow.	resow.	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 2048-1	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 2048-2	each,	each	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -994,7 +994,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 2072-1	3/4	three and a half	numbers	16	major	0	0	0	0	0	0	0	1	0	0	0
 2076-1	1	one	numbers	3	minor	0	0	0	0	0	0	0	1	0	0	0
 2077-1	"""failure"""	"""failure,"""	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
-2079-1	500 m	500-meter	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+2079-1	500 m	500-meter	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 2083-1	This is nothing	Nothing	condensation	9	major	0	0	0	0	0	0	0	0	1	0	0
 2090-1	heater	heater,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 2091-1	be	be;	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -1008,10 +1008,10 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 2120-1	Plutonium	plutonium	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 2124-1	Plutonium,	plutonium,	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 2124-2	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
-2128-1	1960's, NASA's been	1960s, NASA began	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+2128-1	1960's, NASA's been	1960s, NASA began	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 2129-1	It has	They have	xxTBCxx	6	major	0	0	0	0	0	0	0	0	0	0	1
 2130-1	It's	They're	xxTBCxx	6	major	0	0	0	0	0	0	0	0	0	0	1
-2130-2	it works	they work	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+2130-2	it works	they work	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 2130-3	it's	they're	xxTBCxx	6	major	0	0	0	0	0	0	0	0	0	0	1
 2131-1	The	the	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 2133-1	fucking	damned	xxTBCxx	7	major	0	0	0	0	0	0	0	0	0	0	1
@@ -1096,9 +1096,9 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 2267-1	use.	uSe.	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 2271-1	87 days	Eighty-seven days'	numbers	13	major	0	0	0	0	0	0	0	1	0	0	0
 2273-1		Oxygen's a little trickier.	insertion	27	major	1	0	0	0	0	0	0	0	0	0	0
-2274-1	3	three	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+2274-1	3	three	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 2274-2	2	two	numbers	3	minor	0	0	0	0	0	0	0	1	0	0	0
-2275-1	7	seven	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+2275-1	7	seven	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 2277-1	1/90th Earth's	almost no	numbers	13	major	0	0	0	0	0	0	0	1	0	0	0
 2278-1	1	one	numbers	3	minor	0	0	0	0	0	0	0	1	0	0	0
 2282-1	25 L	25-liter liquid	numbers	12	major	0	0	0	0	0	0	0	1	0	0	0
@@ -1108,7 +1108,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 2285-2	with	With	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 2285-3	42	49	numbers	1	minor	0	0	0	0	0	0	0	1	0	0	0
 2287-1	20 day	twenty-day	numbers	7	major	0	0	0	0	0	0	0	1	0	0	0
-2289-1	40	forty	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+2289-1	40	forty	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 2293-1	Atmospheric Regulator,	atmospheric regulator,	capitalization	2	minor	0	0	1	0	0	0	0	0	0	0	0
 2300-1	YOU	You	capitalization	2	minor	0	0	1	0	0	0	0	0	0	0	0
 2304-1	Oxygenator	oxygenator	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
@@ -1123,7 +1123,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 2316-1		Warner	insertion	6	major	1	0	0	0	0	0	0	0	0	0	0
 2320-1	Director	director	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 2320-2	Missions	operations	xxTBCxx	6	major	0	0	0	0	0	0	0	0	0	0	1
-2323-1	began,	said,	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+2323-1	began,	said,	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 2326-1	12	twelve	numbers	6	major	0	0	0	0	0	0	0	1	0	0	0
 2326-2	whenever	Whenever	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 2331-1	can	can1	numbers	1	minor	0	0	0	0	0	0	0	1	0	0	0
@@ -1170,10 +1170,10 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 2428-1	looked over to Mindy.		deletion	21	major	0	1	0	0	0	0	0	0	0	0	0
 2429-1	"""Sorry."""	raised his eyebrows.	expansion	19	major	0	0	0	0	0	0	0	0	0	1	0
 2430-1		"""Didn't think of that. Sorry, Mindy."""	insertion	37	major	1	0	0	0	0	0	0	0	0	0	0
-2431-1	"say ""'k."""	"say, '""kay."""	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
-2433-1	late.		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+2431-1	"say ""'k."""	"say, '""kay."""	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
+2433-1	late.		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 2434-1	"Let's get started,"""	"late."""	condensation	15	major	0	0	0	0	0	0	0	0	1	0	0
-2435-1	seat.		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+2435-1	seat.		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 2436-1	"""Venkat,"	seat and pulled several folders from his briefcase.	expansion	49	major	0	0	0	0	0	0	0	0	0	1	0
 2437-1		Stacking them neatly, he opened the top one and squared the pages within.	insertion	73	major	1	0	0	0	0	0	0	0	0	0	0
 2438-1		"""Let's get started."	insertion	19	major	1	0	0	0	0	0	0	0	0	0	0
@@ -1184,7 +1184,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 2458-2	ok	okay	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
 2459-1	break	break,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 2470-1	"""We"	We	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
-2470-2	idea.		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+2470-2	idea.		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 2471-1	The	idea for that.	expansion	13	major	0	0	0	0	0	0	0	0	0	1	0
 2472-1		"""The"	insertion	4	minor	1	0	0	0	0	0	0	0	0	0	0
 2477-1	Park. Welcome	Park, welcome	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
@@ -1196,14 +1196,14 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 2494-1	gonna'	gonna	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 2504-1	asked,	asked.	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 2505-1	finger	finger.	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
-2506-1	don't		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+2506-1	don't		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 2516-1	hope	hope,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 2518-1	"bullshit,"""	"bullshit."""	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
-2521-1	calm	quiet	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+2521-1	calm	quiet	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 2522-1	"""Ok,"	"""Okay,"	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
 2528-1	4	four	numbers	4	minor	0	0	0	0	0	0	0	1	0	0	0
 2535-1	Said	said	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
-2540-1	8	eight	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+2540-1	8	eight	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 2542-1	9	nine	numbers	4	minor	0	0	0	0	0	0	0	1	0	0	0
 2543-1	350	three hundred and fifty	numbers	23	major	0	0	0	0	0	0	0	1	0	0	0
 2547-1	6 month	six-month	numbers	4	minor	0	0	0	0	0	0	0	1	0	0	0
@@ -1234,8 +1234,8 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 2626-1	20,000	Twenty thousand	numbers	15	major	0	0	0	0	0	0	0	1	0	0	0
 2626-2	printed,	printed	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 2629-1		don't print-stamps of living people.	insertion	36	major	1	0	0	0	0	0	0	0	0	0	0
-2630-1		So we	insertion	5	major	1	0	0	0	0	0	0	0	0	0	0
-2630-2	sold.		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+2630-1		So we	insertion	5	minor	1	0	0	0	0	0	0	0	0	0	0
+2630-2	sold.		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 2631-1	"The thing is, we don't print stamps of living people."""	"sold."""	condensation	49	major	0	0	0	0	0	0	0	0	1	0	0
 2635-1	"Postal Service."""	"postal service."""	capitalization	2	minor	0	0	1	0	0	0	0	0	0	0	0
 2639-1	not too much. Like	like	condensation	15	major	0	0	0	0	0	0	0	0	1	0	0
@@ -1314,15 +1314,15 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 2859-1	'70's	seventies	numbers	8	major	0	0	0	0	0	0	0	1	0	0	0
 2862-1	cut-offs	cutoffs	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 2865-1	2	two	numbers	3	minor	0	0	0	0	0	0	0	1	0	0	0
-2865-2		first	insertion	5	major	1	0	0	0	0	0	0	0	0	0	0
+2865-2		first	insertion	5	minor	1	0	0	0	0	0	0	0	0	0	0
 2868-1	gently-sloping	gently sloping	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 2874-1	12	twelve	numbers	6	major	0	0	0	0	0	0	0	1	0	0	0
-2877-1	8	eight	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+2877-1	8	eight	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 2878-1	space of	space,of	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
 2881-1	470's	seventies	numbers	8	major	0	0	0	0	0	0	0	1	0	0	0
 2881-2	novels.	novels to read.	expansion	8	major	0	0	0	0	0	0	0	0	0	1	0
 2884-1	3,200 km	3200-kilometer	numbers	9	major	0	0	0	0	0	0	0	1	0	0	0
-2885-1	50	fifty	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+2885-1	50	fifty	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 2886-1	Water Reclaimer	water reclaimer	capitalization	2	minor	0	0	1	0	0	0	0	0	0	0	0
 2886-2	Oxygenator,	oxygenator,	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 2886-3	everything... where	everything.... Where	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
@@ -1410,7 +1410,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 3102-2	Lander	lander	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 3102-3	on to	onto	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 3107-1	Piling up	I piled	xxTBCxx	8	major	0	0	0	0	0	0	0	0	0	0	1
-3107-2	Lander, I	lander and	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+3107-2	Lander, I	lander and	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 3107-3	pile, then	pile and back	xxTBCxx	8	major	0	0	0	0	0	0	0	0	0	0	1
 3108-1	it steeper, etc.		deletion	16	major	0	1	0	0	0	0	0	0	0	0	0
 3109-1	I figured out	the pile steeper and made sure	expansion	24	major	0	0	0	0	0	0	0	0	0	1	0
@@ -1444,7 +1444,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 3192-1	24718	24,718	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 3197-1	laying	lying	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
 3208-1	for rendezvous.	to pick us up.	xxTBCxx	11	major	0	0	0	0	0	0	0	0	0	0	1
-3210-1	3	three	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+3210-1	3	three	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 3211-1	23 minute	twenty-three-minute	numbers	13	major	0	0	0	0	0	0	0	1	0	0	0
 3213-1	"""We"	"""we"	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 3213-2	"other""."		deletion	7	major	0	1	0	0	0	0	0	0	0	0	0
@@ -1454,7 +1454,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 3217-1	for just five minutes of Missed Orbit training.		deletion	47	major	0	1	0	0	0	0	0	0	0	0	0
 3218-1	I'm really feeling alone lately.		deletion	32	major	0	1	0	0	0	0	0	0	0	0	0
 3219-1	Up till this road trip, I've been too busy		deletion	42	major	0	1	0	0	0	0	0	0	0	0	0
-3219-2	mope.		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+3219-2	mope.		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 3220-1	But the long, dull days	be in that cramped capsule	xxTBCxx	21	major	0	0	0	0	0	0	0	0	0	0	1
 3220-2	nothing to do really drives it home.		deletion	36	major	0	1	0	0	0	0	0	0	0	0	0
 3221-1	I'm further away from other humans than anyone has ever been.	those guys again.	condensation	49	major	0	0	0	0	0	0	0	0	1	0	0
@@ -1511,7 +1511,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 3338-1	Lander	lander	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 3343-1	1 atmosphere. The	one atmosphere, and the	numbers	9	major	0	0	0	0	0	0	0	1	0	0	0
 3346-1	Lander	lander	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
-3349-1	Sojourner's also	Sojourner's,	condensation	5	major	0	0	0	0	0	0	0	0	1	0	0
+3349-1	Sojourner's also	Sojourner's,	condensation	5	minor	0	0	0	0	0	0	0	0	1	0	0
 3349-2	life.	life, either.	expansion	8	major	0	0	0	0	0	0	0	0	0	1	0
 3351-1	Lander	lander	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 3353-1	PATHFINDER	Pathfinder	capitalization	9	major	0	0	1	0	0	0	0	0	0	0	0
@@ -1534,7 +1534,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 3381-2	little	the cramped	expansion	10	major	0	0	0	0	0	0	0	0	0	1	0
 3381-3	was left over for	had turned positively claustrophobic with	expansion	33	major	0	0	0	0	0	0	0	0	0	1	0
 3381-4		now	insertion	3	minor	1	0	0	0	0	0	0	0	0	0	0
-3381-5	in.	into it.	expansion	5	major	0	0	0	0	0	0	0	0	0	1	0
+3381-5	in.	into it.	expansion	5	minor	0	0	0	0	0	0	0	0	0	1	0
 3382-1	was permitted.	pressed against the back wall, trying-and failing--to stay out of everyone's way while recording the auspicious moment.	expansion	108	major	0	0	0	0	0	0	0	0	0	1	0
 3389-1	shit	stuff	xxTBCxx	4	minor	0	0	0	0	0	0	0	0	0	0	1
 3393-1	asked	asked,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -1582,7 +1582,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 3458-1	said	said,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 3474-1	32 minute round trip,	twenty-two-minute round-trip	numbers	13	major	0	0	0	0	0	0	0	1	0	0	0
 3476-1	just past 3am	just.past three a.m.	numbers	9	major	0	0	0	0	0	0	0	1	0	0	0
-3478-1	now, the	now.	condensation	5	major	0	0	0	0	0	0	0	0	1	0	0
+3478-1	now, the	now.	condensation	5	minor	0	0	0	0	0	0	0	0	1	0	0
 3479-1		The	insertion	3	minor	1	0	0	0	0	0	0	0	0	0	0
 3481-1	Quickly leaving the press room,	Before anyone could ask a follow-up,	expansion	30	major	0	0	0	0	0	0	0	0	0	1	0
 3481-2		strode out the side door and	insertion	28	major	1	0	0	0	0	0	0	0	0	0	0
@@ -1607,13 +1607,13 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 3517-1	"""There's the third note,"" said Tim."		deletion	35	major	0	1	0	0	0	0	0	0	0	0	0
 3518-1	"""'Point here for no,""' Venkat read."		deletion	35	major	0	1	0	0	0	0	0	0	0	0	0
 3519-1	"""'Will check often for answer'"""		deletion	31	major	0	1	0	0	0	0	0	0	0	0	0
-3520-1	Venkat	"yes.'"""	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+3520-1	Venkat	"yes.'"""	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 3521-1		He	insertion	2	minor	1	0	0	0	0	0	0	0	0	0	0
 3524-1	'Yes'.	'Yes.'	punctuation	2	minor	0	0	0	0	0	1	0	0	0	0	0
 3525-1	10 minute	ten-minute	numbers	4	minor	0	0	0	0	0	0	0	1	0	0	0
 3528-1	said	said,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 3530-1	Ok, calm	Okay, Calm	xxTBCxx	3	minor	0	0	0	0	0	0	0	0	0	0	1
-3533-1	50	fifty	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+3533-1	50	fifty	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 3534-1	question.	question,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 3537-1	of	Of	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 3537-2	1/90th of an	Mars's	numbers	12	major	0	0	0	0	0	0	0	1	0	0	0
@@ -1660,10 +1660,10 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 3619-1		He gulped his coffee.	insertion	21	major	1	0	0	0	0	0	0	0	0	0	0
 3620-1		"""Who"	insertion	4	minor	1	0	0	0	0	0	0	0	0	0	0
 3629-1	actually,	actually;	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
-3634-1	"""Ok, how"	"""How"	condensation	5	major	0	0	0	0	0	0	0	0	1	0	0
+3634-1	"""Ok, how"	"""How"	condensation	5	minor	0	0	0	0	0	0	0	0	1	0	0
 3635-1	communication	communications	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
 3637-1	Ares-3	Ares 3	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
-3641-1	dead.		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+3641-1	dead.		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 3642-1	Thing is, all	dead, but	condensation	11	major	0	0	0	0	0	0	0	0	1	0	0
 3642-2	does is triangulate the signal to fix its location.		deletion	51	major	0	1	0	0	0	0	0	0	0	0	0
 3643-1	It doesn't send data back to the Hab.		deletion	37	major	0	1	0	0	0	0	0	0	0	0	0
@@ -1686,7 +1686,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 3653-2	talk to	update	xxTBCxx	6	major	0	0	0	0	0	0	0	0	0	0	1
 3653-3	"rover."""		deletion	7	major	0	1	0	0	0	0	0	0	0	0	0
 3654-1	"""Not directly,"""	"rover's software?"""	xxTBCxx	16	major	0	0	0	0	0	0	0	0	0	0	1
-3655-1	said.		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+3655-1	said.		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 3656-1	"""But we"	grinned as he continued.	expansion	22	major	0	0	0	0	0	0	0	0	0	1	0
 3657-1		"""We can't do the patch, but Watney can!"	insertion	39	major	1	0	0	0	0	0	0	0	0	0	0
 3658-1		We	insertion	2	minor	1	0	0	0	0	0	0	0	0	0	0
@@ -1754,7 +1754,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 3795-1	picture	picture,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 3795-2	The	the	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 3796-1	admonished.	asked, admonishing Venkat.	expansion	16	major	0	0	0	0	0	0	0	0	0	1	0
-3797-1	Venkat	he	condensation	5	major	0	0	0	0	0	0	0	0	1	0	0
+3797-1	Venkat	he	condensation	5	minor	0	0	0	0	0	0	0	0	1	0	0
 3811-1	said	said,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 3814-1	began,	began.	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 3821-1	have	-have	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
@@ -1780,7 +1780,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 3894-1	[11:18]JPL:	[11:18] JPL:	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 3899-1	JPL	IPL	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
 3902-1	[11:29]WATNEY:	[11:29] WATNEY:	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
-3906-1	"mom!"""		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+3906-1	"mom!"""		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 3907-1	[11:41]JPL:	"Mom!"""	numbers	11	major	0	0	0	0	0	0	0	1	0	0	0
 3908-1		[11:41] JPL:	insertion	12	major	1	0	0	0	0	0	0	0	0	0	0
 3908-2	"""crops""."	"""crops."""	punctuation	2	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -1816,7 +1816,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 3974-1	morning	morning,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 3976-1	brand new	brand-new	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 3977-1		Sol 6!	insertion	6	major	1	0	0	0	0	0	0	0	0	0	0
-3981-1	40	forty	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+3981-1	40	forty	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 3983-1	Air-Force	air force	xxTBCxx	3	minor	0	0	0	0	0	0	0	0	0	0	1
 3983-2	Navy	navy	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 3986-1	software-engineer,	software engineer,	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
@@ -1867,7 +1867,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 4118-1	"""Before"	"""before"	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 4121-1	"""Johanssen"	"""Johanssen,"	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 4124-1	"""Ok,"""	"""Okay,"""	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
-4127-1	"""Doctor"	"""Dr."	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+4127-1	"""Doctor"	"""Dr."	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 4127-2	"""How"	"""how"	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 4130-1	up	lip	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
 4134-1	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
@@ -1921,7 +1921,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 4278-1	"""Standby,"""	"""Stand by,"""	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 4279-1	"""12.9"	"""Twelve point nine"	numbers	17	major	0	0	0	0	0	0	0	1	0	0	0
 4283-1	"""12.8 now."""	"""Twelve point eight now,"""	numbers	19	major	0	0	0	0	0	0	0	1	0	0	0
-4284-1	60	sixty	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+4284-1	60	sixty	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 4285-1	"Hermes?"""		deletion	8	major	0	1	0	0	0	0	0	0	0	0	0
 4286-1	"""10"	"Hermes'?"""	numbers	9	major	0	0	0	0	0	0	0	1	0	0	0
 4287-1		"""Ten"	insertion	4	minor	1	0	0	0	0	0	0	0	0	0	0
@@ -1947,7 +1947,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 4342-1	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 4343-1	running	thrusting	xxTBCxx	4	minor	0	0	0	0	0	0	0	0	0	0	1
 4343-2	smoother,	more smoothly,	expansion	7	major	0	0	0	0	0	0	0	0	0	1	0
-4346-1	8	eight	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+4346-1	8	eight	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 4346-2	14	fourteen	numbers	8	major	0	0	0	0	0	0	0	1	0	0	0
 4351-1	NASA was loathe to waste research time.		deletion	39	major	0	1	0	0	0	0	0	0	0	0	0
 4352-1	Trips to and from Mars were as busy as surface operations.		deletion	58	major	0	1	0	0	0	0	0	0	0	0	0
@@ -2032,7 +2032,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 4517-1		Looking forward to buying you a beer back on Earth.	insertion	51	major	1	0	0	0	0	0	0	0	0	0	0
 4518-1		-Lewis	insertion	6	major	1	0	0	0	0	0	0	0	0	0	0
 4520-1	Dear Martinez: Mars	Commander, pure bad luck	expansion	20	major	0	0	0	0	0	0	0	0	0	1	0
-4520-2	fine.		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+4520-2	fine.		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 4521-1	When I get lonely	responsible for my situation, not you.	expansion	31	major	0	0	0	0	0	0	0	0	0	1	0
 4522-1		You made the right call and saved everyone else.	insertion	48	major	1	0	0	0	0	0	0	0	0	0	0
 4523-1	think	know it must have been a tough decision, but any analysis	expansion	53	major	0	0	0	0	0	0	0	0	0	1	0
@@ -2065,8 +2065,8 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 4567-1	Just	stranded, lust	expansion	11	major	0	0	0	0	0	0	0	0	0	1	0
 4572-1	witch-hunt	witch hunt	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 4574-1	Also	I'm sure the rest of the crew will do the same.	expansion	45	major	0	0	0	0	0	0	0	0	0	1	0
-4575-1		Also,	insertion	5	major	1	0	0	0	0	0	0	0	0	0	0
-4575-2	are prostitutes.	is a prostitute.	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+4575-1		Also,	insertion	5	minor	1	0	0	0	0	0	0	0	0	0	0
+4575-2	are prostitutes.	is a prostitute.	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 4578-1	Ares-3	Ares 3	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 4578-2	14	fourteen	numbers	8	major	0	0	0	0	0	0	0	1	0	0	0
 4578-3	window.	Window.	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
@@ -2099,7 +2099,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 4630-1	They	Lewis and Beck	expansion	13	major	0	0	0	0	0	0	0	0	0	1	0
 4633-1	Water Reclaimer	water reclaimer	capitalization	2	minor	0	0	1	0	0	0	0	0	0	0	0
 4636-1	the		deletion	3	minor	0	1	0	0	0	0	0	0	0	0	0
-4637-1	(After 5	(after five	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+4637-1	(After 5	(after five	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 4644-1	things	qualities	xxTBCxx	7	major	0	0	0	0	0	0	0	0	0	0	1
 4645-1	13-month	thirteen-month	numbers	8	major	0	0	0	0	0	0	0	1	0	0	0
 4646-1	initiative, but at the same time, obey their Commander.	initiative.	condensation	44	major	0	0	0	0	0	0	0	0	1	0	0
@@ -2113,11 +2113,11 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 4673-1	4	four	numbers	4	minor	0	0	0	0	0	0	0	1	0	0	0
 4678-1	31	thirty-one	numbers	10	major	0	0	0	0	0	0	0	1	0	0	0
 4684-1	119	118	numbers	1	minor	0	0	0	0	0	0	0	1	0	0	0
-4687-1	3	three	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+4687-1	3	three	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 4687-2	50 kph	50-kph	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 4689-1		a	insertion	1	minor	1	0	0	0	0	0	0	0	0	0	0
 4696-1	Cells. A time honored	Cells, a time-honored	xxTBCxx	3	minor	0	0	0	0	0	0	0	0	0	0	1
-4696-2	by	among	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+4696-2	by	among	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 4699-1	"""Snow-blowers"	"""Snowblowers"	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 4702-1	She	she	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 4703-1	It's	it's	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
@@ -2133,13 +2133,13 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 4720-1	1	one	numbers	3	minor	0	0	0	0	0	0	0	1	0	0	0
 4727-1	violently		deletion	9	major	0	1	0	0	0	0	0	0	0	0	0
 4727-2	Hab exploded.	Hab's atmosphere explosively escaped through the breach.	expansion	44	major	0	0	0	0	0	0	0	0	0	1	0
-4729-1	40	forty	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+4729-1	40	forty	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 4730-1	face first.	face-first.	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 4733-1	15	fifteen	numbers	7	major	0	0	0	0	0	0	0	1	0	0	0
 4735-1		he	insertion	2	minor	1	0	0	0	0	0	0	0	0	0	0
 4736-1	dust.	dust,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 4744-1	phone-booth sized	phone booth-sized	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
-4745-1	hiss.		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+4745-1	hiss.		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 4746-1	Then	hiss, then	expansion	7	major	0	0	0	0	0	0	0	0	0	1	0
 4749-1	He	he	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 4750-1	Chapter	CHAPTER	capitalization	6	major	0	0	1	0	0	0	0	0	0	0	0
@@ -2159,7 +2159,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 4760-2	what happened.		deletion	14	major	0	1	0	0	0	0	0	0	0	0	0
 4761-1	I should	and I'll die.	expansion	11	major	0	0	0	0	0	0	0	0	0	1	0
 4762-1		I'll	insertion	4	minor	1	0	0	0	0	0	0	0	0	0	0
-4762-2		done.	insertion	5	major	1	0	0	0	0	0	0	0	0	0	0
+4762-2		done.	insertion	5	minor	1	0	0	0	0	0	0	0	0	0	0
 4763-1		No	insertion	2	minor	1	0	0	0	0	0	0	0	0	0	0
 4763-2	upset, but	getting my hopes up, no more self-delusion, and no more problem-solving.	expansion	65	major	0	0	0	0	0	0	0	0	0	1	0
 4764-1		I've fucking had it!	insertion	20	major	1	0	0	0	0	0	0	0	0	0	0
@@ -2169,7 +2169,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 4767-2	took a pretty good whack	have	condensation	22	major	0	0	0	0	0	0	0	0	1	0	0
 4767-3	the head.		deletion	9	major	0	1	0	0	0	0	0	0	0	0	0
 4768-1	It had a calming effect.		deletion	24	major	0	1	0	0	0	0	0	0	0	0	0
-4769-1	So...		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+4769-1	So...		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 4770-1	Well, ok.	figure out how to stay alive.	expansion	25	major	0	0	0	0	0	0	0	0	0	1	0
 4771-1		Again.	insertion	6	major	1	0	0	0	0	0	0	0	0	0	0
 4772-1		Okay, let's see what I can do here....	insertion	38	major	1	0	0	0	0	0	0	0	0	0	0
@@ -2207,14 +2207,14 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 4840-2	is a	as	xxTBCxx	3	minor	0	0	0	0	0	0	0	0	0	0	1
 4842-1	%	percent	expansion	7	major	0	0	0	0	0	0	0	0	0	1	0
 4846-1	tear up my suit's electronics.	mess with the suit.	condensation	22	major	0	0	0	0	0	0	0	0	1	0	0
-4849-1	50	fifty	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+4849-1	50	fifty	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 4851-1	whose	who's	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
 4855-1	LOG:	LOG TRANSCRIPT:	expansion	11	major	0	0	0	0	0	0	0	0	0	1	0
 4855-2	RECORDING:	(4)	numbers	10	major	0	0	0	0	0	0	0	1	0	0	0
 4856-1	burning hair	burning-hair	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 4872-1	any	and	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
 4877-1	is	are	xxTBCxx	3	minor	0	0	0	0	0	0	0	0	0	0	1
-4879-1	60	sixty	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+4879-1	60	sixty	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 4880-1	crack.	airlock.	xxTBCxx	4	minor	0	0	0	0	0	0	0	0	0	0	1
 4884-1	%	percent	expansion	7	major	0	0	0	0	0	0	0	0	0	1	0
 4888-1	Ok...	Okay...	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
@@ -2236,7 +2236,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 4947-1	LOG:	LOG TRANSCRIPT:	expansion	11	major	0	0	0	0	0	0	0	0	0	1	0
 4947-2	RECORDING:	(6)	numbers	10	major	0	0	0	0	0	0	0	1	0	0	0
 4949-1	sheers	shears	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
-4954-1	60	sixty	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+4954-1	60	sixty	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 4957-1	Then,	Then	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 4958-1	on to	onto	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 4958-2	helmet.		deletion	7	major	0	1	0	0	0	0	0	0	0	0	0
@@ -2251,14 +2251,14 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 4975-1	outward,	outward	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 4979-1		It absolutely pissed the air out.	insertion	33	major	1	0	0	0	0	0	0	0	0	0	0
 4980-1		In five minutes it leaked so much it pressurized the whole airlock to 1.2 atmospheres.	insertion	86	major	1	0	0	0	0	0	0	0	0	0	0
-4981-1	8	eight	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+4981-1	8	eight	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 4982-1	ml	milliliters	expansion	9	major	0	0	0	0	0	0	0	0	0	1	0
 4988-1	2	two	numbers	3	minor	0	0	0	0	0	0	0	1	0	0	0
 4989-1	It absolutely pissed the air out.		deletion	33	major	0	1	0	0	0	0	0	0	0	0	0
 4990-1	In 60 seconds it leaked so much it pressurized the whole airlock to 1.2 atmospheres.		deletion	84	major	0	1	0	0	0	0	0	0	0	0	0
 4991-1	2	two	numbers	3	minor	0	0	0	0	0	0	0	1	0	0	0
 4993-1	5	five	numbers	4	minor	0	0	0	0	0	0	0	1	0	0	0
-4994-1	285g	285 grams	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+4994-1	285g	285 grams	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 4995-1	ml.	milliliters.	expansion	9	major	0	0	0	0	0	0	0	0	0	1	0
 4996-1	ml	milliliters	expansion	9	major	0	0	0	0	0	0	0	0	0	1	0
 4998-1	Also, my	Also,'my	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
@@ -2272,7 +2272,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 5004-1	LOG:	LOG TRANSCRIPT:	expansion	11	major	0	0	0	0	0	0	0	0	0	1	0
 5004-2	RECORDING:		deletion	10	major	0	1	0	0	0	0	0	0	0	0	0
 5005-1	Ok,	(7)	numbers	3	minor	0	0	0	0	0	0	0	1	0	0	0
-5006-1		Okay,	insertion	5	major	1	0	0	0	0	0	0	0	0	0	0
+5006-1		Okay,	insertion	5	minor	1	0	0	0	0	0	0	0	0	0	0
 5010-1	Water Reclaimer,	water reclaimer,	capitalization	2	minor	0	0	1	0	0	0	0	0	0	0	0
 5010-2	Oxygenator,	oxygenator,	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 5013-1	training.	training,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -2298,12 +2298,12 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 5049-1	super-pushup	super-push-up	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
 5049-2	(0.4g	(0.4 g	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 5053-1	is	was	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
-5053-2	wall.		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+5053-2	wall.		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 5054-1	Then I	wall, then	expansion	9	major	0	0	0	0	0	0	0	0	0	1	0
 5055-1	it was	it.	xxTBCxx	4	minor	0	0	0	0	0	0	0	0	0	0	1
 5056-1		gave me	insertion	7	major	1	0	0	0	0	0	0	0	0	0	0
 5056-2	and	arid	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
-5058-1	50	fifty	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+5058-1	50	fifty	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 5060-1	LOG:	LOG TRANSCRIPT:	expansion	11	major	0	0	0	0	0	0	0	0	0	1	0
 5060-2	RECORDING:		deletion	10	major	0	1	0	0	0	0	0	0	0	0	0
 5063-1	only		deletion	4	minor	0	1	0	0	0	0	0	0	0	0	0
@@ -2338,7 +2338,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 5165-1	me.	me until I swapped helmets.	expansion	24	major	0	0	0	0	0	0	0	0	0	1	0
 5169-1	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 5172-1	fully-functional	fully functional	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
-5176-1	"""A-OK""."	"""A-okay."""	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+5176-1	"""A-OK""."	"""A-okay."""	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 5178-1	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 5181-1	arch,	arch	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 5181-2	it	its base	expansion	6	major	0	0	0	0	0	0	0	0	0	1	0
@@ -2468,7 +2468,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 5418-1	mean time,	meantime,	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 5419-1	"good,"""	"thank you,"""	expansion	8	major	0	0	0	0	0	0	0	0	0	1	0
 5419-2	nodded.		deletion	7	major	0	1	0	0	0	0	0	0	0	0	0
-5420-1	"""Now"	said.	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+5420-1	"""Now"	said.	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 5421-1		He turned his attention to Bruce Ng, who stared back at him with heavy bloodshot eyes.	insertion	86	major	1	0	0	0	0	0	0	0	0	0	0
 5422-1		"""Bruce, thank you for flying out, too."	insertion	38	major	1	0	0	0	0	0	0	0	0	0	0
 5423-1		"How's the weather in California these days?"""	insertion	44	major	1	0	0	0	0	0	0	0	0	0	0
@@ -2476,14 +2476,14 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 5425-1		"""I rarely see the outdoors."""	insertion	28	major	1	0	0	0	0	0	0	0	0	0	0
 5426-1		Subdued laughter filled the room for a few seconds.	insertion	51	major	1	0	0	0	0	0	0	0	0	0	0
 5427-1		Teddy flipped another page.	insertion	27	major	1	0	0	0	0	0	0	0	0	0	0
-5428-1		"""Time"	insertion	5	major	1	0	0	0	0	0	0	0	0	0	0
+5428-1		"""Time"	insertion	5	minor	1	0	0	0	0	0	0	0	0	0	0
 5428-2	question: Bruce?	question, Bruce.	punctuation	2	minor	0	0	0	0	0	1	0	0	0	0	0
 5434-1	walking	talking	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
 5436-1		Bruce rubbed his eyes and sighed.	insertion	33	major	1	0	0	0	0	0	0	0	0	0	0
 5437-1	29	twenty-nine	numbers	11	major	0	0	0	0	0	0	0	1	0	0	0
 5437-2	"19 left,"" Bruce explained."		deletion	26	major	0	1	0	0	0	0	0	0	0	0	0
 5438-1	"""After"	nineteen left.	expansion	12	major	0	0	0	0	0	0	0	0	0	1	0
-5439-1		After	insertion	5	major	1	0	0	0	0	0	0	0	0	0	0
+5439-1		After	insertion	5	minor	1	0	0	0	0	0	0	0	0	0	0
 5439-2	13	thirteen	numbers	8	major	0	0	0	0	0	0	0	1	0	0	0
 5442-1	asked.	asked, writing a note on his papers.	expansion	30	major	0	0	0	0	0	0	0	0	0	1	0
 5448-1	"""15"	"""Fifteen"	numbers	7	major	0	0	0	0	0	0	0	1	0	0	0
@@ -2507,7 +2507,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 5472-1	pondered.		deletion	9	major	0	1	0	0	0	0	0	0	0	0	0
 5473-1	"""Well... It"	leaned against the wall and pinched his chin.	expansion	41	major	0	0	0	0	0	0	0	0	0	1	0
 5474-1		"""Well it"	insertion	8	major	1	0	0	0	0	0	0	0	0	0	0
-5474-2	3	three	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+5474-2	3	three	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 5475-1	10	ten	numbers	3	minor	0	0	0	0	0	0	0	1	0	0	0
 5477-1	2	two	numbers	3	minor	0	0	0	0	0	0	0	1	0	0	0
 5491-1		Teddy wrote that down.	insertion	22	major	1	0	0	0	0	0	0	0	0	0	0
@@ -2516,7 +2516,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 5495-1		He wrote that down as well.	insertion	27	major	1	0	0	0	0	0	0	0	0	0	0
 5496-1	the		deletion	3	minor	0	1	0	0	0	0	0	0	0	0	0
 5496-2	1	one	numbers	3	minor	0	0	0	0	0	0	0	1	0	0	0
-5496-3	40	forty	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+5496-3	40	forty	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 5496-4	"failure?"""	"failure? """	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 5498-1	"2.5 %,"""	"two point five percent,"""	numbers	21	major	0	0	0	0	0	0	0	1	0	0	0
 5498-2	steeping	stepping	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
@@ -2525,8 +2525,8 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 5502-1	"""97.5 %"	said.	numbers	7	major	0	0	0	0	0	0	0	1	0	0	0
 5503-1		"""Ninety-seven point five percent"	insertion	32	major	1	0	0	0	0	0	0	0	0	0	0
 5505-1	looked around	scanned	condensation	11	major	0	0	0	0	0	0	0	0	1	0	0
-5505-2	table.	room-.	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
-5507-1	then.		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+5505-2	table.	room-.	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
+5507-1	then.		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 5508-1	Speeding	"then,"" he said, circling something on his notes."	expansion	42	major	0	0	0	0	0	0	0	0	0	1	0
 5509-1		"""Speeding"	insertion	9	major	1	0	0	0	0	0	0	0	0	0	0
 5509-2	11	eleven	numbers	6	major	0	0	0	0	0	0	0	1	0	0	0
@@ -2590,7 +2590,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 5620-1		put his headset on and	insertion	22	major	1	0	0	0	0	0	0	0	0	0	0
 5620-2	many screens	time readout	xxTBCxx	11	major	0	0	0	0	0	0	0	0	0	0	1
 5620-3	far wall, and	giant center screen at	expansion	18	major	0	0	0	0	0	0	0	0	0	1	0
-5620-4	dozens	front	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+5620-4	dozens	front	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 5620-5	people at their stations.	the room.	condensation	19	major	0	0	0	0	0	0	0	0	1	0	0
 5621-1	put	turned on	expansion	8	major	0	0	0	0	0	0	0	0	0	1	0
 5621-2	on		deletion	2	minor	0	1	0	0	0	0	0	0	0	0	0
@@ -2634,7 +2634,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 5702-3	Timer Controller	timer controller	capitalization	2	minor	0	0	1	0	0	0	0	0	0	0	0
 5705-1	He	he	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 5706-1	"good, Flight."""		deletion	14	major	0	1	0	0	0	0	0	0	0	0	0
-5707-1	came	good.	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+5707-1	came	good.	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 5708-1		"Flight"" was"	insertion	11	major	1	0	0	0	0	0	0	0	0	0	0
 5710-1	He	he	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 5712-1	1000	one thousand	numbers	12	major	0	0	0	0	0	0	0	1	0	0	0
@@ -2651,7 +2651,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 5727-1	An	incredible speed.	expansion	16	major	0	0	0	0	0	0	0	0	0	1	0
 5728-1		Because Iris was an	insertion	19	major	1	0	0	0	0	0	0	0	0	0	0
 5729-1		.	insertion	1	minor	1	0	0	0	0	0	0	0	0	0	0
-5731-1	While	But while	expansion	5	major	0	0	0	0	0	0	0	0	0	1	0
+5731-1	While	But while	expansion	5	minor	0	0	0	0	0	0	0	0	0	1	0
 5731-2	G-forces	g-forces	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 5734-1	Mounted by strong bolts, Iris	Iris, mounted firmly within the aeroshell atop the booster,	expansion	42	major	0	0	0	0	0	0	0	0	0	1	0
 5735-1		Iris	insertion	4	minor	1	0	0	0	0	0	0	0	0	0	0
@@ -2672,7 +2672,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 5743-2	problem	larger problem,	expansion	8	major	0	0	0	0	0	0	0	0	0	1	0
 5744-1	Ascent Flight Director.	ascent flight director.	capitalization	3	minor	0	0	1	0	0	0	0	0	0	0	0
 5752-1	"""13"	"""Thirteen"	numbers	8	major	0	0	0	0	0	0	0	1	0	0	0
-5754-1	their	its	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+5754-1	their	its	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 5756-1	stage-clamps	stage clamps	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 5757-1	now-empty	now empty	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 5757-2	ignite.	ignite,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -2693,7 +2693,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 5784-1	came	called	xxTBCxx	3	minor	0	0	0	0	0	0	0	0	0	0	1
 5785-1	What's	what's	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 5788-1	17 degree	seventeen-degree	numbers	10	major	0	0	0	0	0	0	0	1	0	0	0
-5790-1	5 rps,	five rp's,	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+5790-1	5 rps,	five rp's,	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 5791-1	"orbit?"""	"orbit? """	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 5794-1	Communications Director.	communications director.	capitalization	2	minor	0	0	1	0	0	0	0	0	0	0	0
 5795-1	it,	it.	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -2701,7 +2701,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 5798-1	G's inside,	g's inside.	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
 5799-1	200	two hundred	numbers	11	major	0	0	0	0	0	0	0	1	0	0	0
 5801-1	Mitch zeroed in on that last comment.		deletion	37	major	0	1	0	0	0	0	0	0	0	0	0
-5802-1	Mitch	he	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+5802-1	Mitch	he	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 5806-1	"bay."""	"aeroshell,"""	expansion	10	major	0	0	0	0	0	0	0	0	0	1	0
 5807-1	dradeling,	dreideling,	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
 5816-1	said	said,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -2712,7 +2712,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 5826-2		said	insertion	4	minor	1	0	0	0	0	0	0	0	0	0	0
 5826-3	Destroyer	destroyer	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 5830-1	Flight Director	flight director	capitalization	2	minor	0	0	1	0	0	0	0	0	0	0	0
-5835-1	folder, which	folder that	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+5835-1	folder, which	folder that	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 5835-2	the	his	xxTBCxx	3	minor	0	0	0	0	0	0	0	0	0	0	1
 5836-1	Placing it	He placed it	xxTBCxx	7	major	0	0	0	0	0	0	0	0	0	0	1
 5836-2	briefcase, he then	briefcase and	condensation	8	major	0	0	0	0	0	0	0	0	1	0	0
@@ -2720,8 +2720,8 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 5837-1	sat in	stared out	expansion	7	major	0	0	0	0	0	0	0	0	0	1	0
 5837-2	darkened office.		deletion	16	major	0	1	0	0	0	0	0	0	0	0	0
 5838-1	He never decided	office windows	xxTBCxx	14	major	0	0	0	0	0	0	0	0	0	0	1
-5838-2	be in		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
-5838-3	dark.		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+5838-2	be in		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
+5838-3	dark.		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 5839-1	He'd just been lost in thought so long it got dark around him.	space center beyond.	condensation	52	major	0	0	0	0	0	0	0	0	1	0	0
 5840-1		A space center that housed mankind's most advanced knowledge of rocketry yet had still failed to execute today's launch.	insertion	120	major	1	0	0	0	0	0	0	0	0	0	0
 5847-1	A brief	A,	condensation	6	major	0	0	0	0	0	0	0	0	1	0	0
@@ -2885,7 +2885,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 6373-1	balls	balls,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 6374-1	Lewis :	Lewis:	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 6376-1	2	two	numbers	3	minor	0	0	0	0	0	0	0	1	0	0	0
-6378-1		still	insertion	5	major	1	0	0	0	0	0	0	0	0	0	0
+6378-1		still	insertion	5	minor	1	0	0	0	0	0	0	0	0	0	0
 6378-2	situation. Don't.	situation, despite my earlier e-mail asking you not to.	expansion	41	major	0	0	0	0	0	0	0	0	0	1	0
 6380-1	Commanders	commanders	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 6388-1	Disco?	disco?	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
@@ -2920,7 +2920,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 6464-1	It's	Its	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 6464-2	0.2g.	0.2 g.	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 6465-1	their seats	a seat	condensation	6	major	0	0	0	0	0	0	0	0	1	0	0
-6465-2	them.		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+6465-2	them.		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 6466-1	"""...and"	them, ,	xxTBCxx	7	major	0	0	0	0	0	0	0	0	0	0	1
 6467-1		"""... and"	insertion	8	major	1	0	0	0	0	0	0	0	0	0	0
 6467-2	211	two hundred and eleven	numbers	22	major	0	0	0	0	0	0	0	1	0	0	0
@@ -2959,7 +2959,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 6572-1	one	one's mind	expansion	7	major	0	0	0	0	0	0	0	0	0	1	0
 6572-2	change their mind.	change.	condensation	11	major	0	0	0	0	0	0	0	0	1	0	0
 6573-1	going	going,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
-6574-1	soon.		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+6574-1	soon.		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 6575-1	He rose	soon,	xxTBCxx	6	major	0	0	0	0	0	0	0	0	0	0	1
 6576-1		He'd risen	insertion	10	major	1	0	0	0	0	0	0	0	0	0	0
 6576-2	the	NASA's	xxTBCxx	6	major	0	0	0	0	0	0	0	0	0	0	1
@@ -2984,8 +2984,8 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 6601-1	"off-course."""	"off course."""	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 6607-1	27.812 degree	27.812-degree	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 6611-1	"""Roger"	"""Roger,"	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
-6612-1	3	three	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
-6612-2	"4 seconds."""	"four seconds!"""	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+6612-1	3	three	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
+6612-2	"4 seconds."""	"four seconds!"""	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 6617-1	Read	read	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 6620-1	"Flight."""	"Flight,"""	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 6621-1	"""Go"	"""Go,"	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -3000,11 +3000,11 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 6637-1	'The	The	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 6637-2	Mutiny.'	Mutiny.	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 6641-1	"""I suppose"	"""So"	condensation	8	major	0	0	0	0	0	0	0	0	1	0	0
-6641-2		don't	insertion	5	major	1	0	0	0	0	0	0	0	0	0	0
+6641-2		don't	insertion	5	minor	1	0	0	0	0	0	0	0	0	0	0
 6641-3	"proof, then?"""	"any proof."""	xxTBCxx	11	major	0	0	0	0	0	0	0	0	0	0	1
 6653-1	said.	said, raising a finger.	expansion	18	major	0	0	0	0	0	0	0	0	0	1	0
 6658-1	"""Guess that's me"	"""I guess everyone's"	xxTBCxx	13	major	0	0	0	0	0	0	0	0	0	0	1
-6660-1	me	people	expansion	5	major	0	0	0	0	0	0	0	0	0	1	0
+6660-1	me	people	expansion	5	minor	0	0	0	0	0	0	0	0	0	1	0
 6661-1	Allegedly enacting it, that is.		deletion	31	major	0	1	0	0	0	0	0	0	0	0	0
 6662-1	I guess	Even	xxTBCxx	6	major	0	0	0	0	0	0	0	0	0	0	1
 6662-2	off the hook, too.	fine.	condensation	15	major	0	0	0	0	0	0	0	0	1	0	0
@@ -3022,8 +3022,8 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 6693-1	18	twenty-two	numbers	10	major	0	0	0	0	0	0	0	1	0	0	0
 6695-1	km/sol	kilometers per sol	expansion	13	major	0	0	0	0	0	0	0	0	0	1	0
 6696-1	Schiaparelli it'll	Schiaparelli, the trip'11	numbers	10	major	0	0	0	0	0	0	0	1	0	0	0
-6696-2	40	forty	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
-6697-1	50	fifty	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+6696-2	40	forty	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
+6697-1	50	fifty	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 6700-1	30	thirty	numbers	6	major	0	0	0	0	0	0	0	1	0	0	0
 6700-2	45	forty-five	numbers	10	major	0	0	0	0	0	0	0	1	0	0	0
 6701-1	95	ninety-five	numbers	11	major	0	0	0	0	0	0	0	1	0	0	0
@@ -3040,10 +3040,10 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 6750-1	doesn't,	doesn't	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 6752-1	28.8V	28.8 V	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 6752-2	Amps.	amps.	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
-6754-1	36V, 10A	36 V, 10 amp	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+6754-1	36V, 10A	36 V, 10 amp	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 6757-1	high voltage	high-voltage	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 6762-1	before I fucked with it.	first.	condensation	20	major	0	0	0	0	0	0	0	0	1	0	0
-6764-1		right	insertion	5	major	1	0	0	0	0	0	0	0	0	0	0
+6764-1		right	insertion	5	minor	1	0	0	0	0	0	0	0	0	0	0
 6765-1	a 9 Amp	nine-amp	numbers	6	major	0	0	0	0	0	0	0	1	0	0	0
 6766-1	3A	three-amp	numbers	9	major	0	0	0	0	0	0	0	1	0	0	0
 6767-1	9A	nine amps	numbers	9	major	0	0	0	0	0	0	0	1	0	0	0
@@ -3053,18 +3053,18 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 6792-1	[10:25] JPL:	110:25] ]PL:	numbers	2	minor	0	0	0	0	0	0	0	1	0	0	0
 6794-1	"trailer."""	"trailer,"""	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 6794-2	as-is	as is	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
-6799-1	Watney:	WATNEY:	capitalization	5	major	0	0	1	0	0	0	0	0	0	0	0
+6799-1	Watney:	WATNEY:	capitalization	5	minor	0	0	1	0	0	0	0	0	0	0	0
 6800-1	11:30	11:30,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 6802-1	the shit hits the fan.	all hell breaks loose.	xxTBCxx	19	major	0	0	0	0	0	0	0	0	0	0	1
 6805-1	it's	its	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 6806-1	it	-it	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 6806-2	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
-6813-1	outside. I	outside, then	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+6813-1	outside. I	outside, then	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 6818-1		,	insertion	1	minor	1	0	0	0	0	0	0	0	0	0	0
 6819-1	it,	it	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 6819-2	The	the	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 6820-1	24/4	twenty-four and a half	numbers	22	major	0	0	0	0	0	0	0	1	0	0	0
-6826-1	Watney:	WATNEY:	capitalization	5	major	0	0	1	0	0	0	0	0	0	0	0
+6826-1	Watney:	WATNEY:	capitalization	5	minor	0	0	1	0	0	0	0	0	0	0	0
 6843-1		and a half	insertion	10	major	1	0	0	0	0	0	0	0	0	0	0
 6846-1	It	The poor drill	expansion	14	major	0	0	0	0	0	0	0	0	0	1	0
 6848-1	minutes	minutes,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -3074,8 +3074,8 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 6859-1	going	going,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 6866-1		-	insertion	1	minor	1	0	0	0	0	0	0	0	0	0	0
 6867-1	35 days	thirty-five sols	numbers	14	major	0	0	0	0	0	0	0	1	0	0	0
-6873-1	8	eight	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
-6878-1	8	eight	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+6873-1	8	eight	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
+6878-1	8	eight	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 6879-1	10	ten	numbers	3	minor	0	0	0	0	0	0	0	1	0	0	0
 6879-2	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 6880-1	Nervous	nervous	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
@@ -3095,7 +3095,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 6898-1	holes.	holes:	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 6898-2	better.)	better).	punctuation	2	minor	0	0	0	0	0	1	0	0	0	0	0
 6899-1	half-way	halfway	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
-6902-1	Watney:	WATNEY:	capitalization	5	major	0	0	1	0	0	0	0	0	0	0	0
+6902-1	Watney:	WATNEY:	capitalization	5	minor	0	0	1	0	0	0	0	0	0	0	0
 6908-1	Hab, there's	Hab. There's	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
 6916-1	24	twenty-four	numbers	11	major	0	0	0	0	0	0	0	1	0	0	0
 6920-1	anymore	any more	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
@@ -3105,16 +3105,16 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 6941-1	Any time	Anytime	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 6946-1	didn't work.	was dead.	xxTBCxx	10	major	0	0	0	0	0	0	0	0	0	0	1
 6954-1	breakers	breakers,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
-6964-1	Watney:	WATNEY:	capitalization	5	major	0	0	1	0	0	0	0	0	0	0	0
+6964-1	Watney:	WATNEY:	capitalization	5	minor	0	0	1	0	0	0	0	0	0	0	0
 6969-1	an	and	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
 6969-2	18	eighteen	numbers	8	major	0	0	0	0	0	0	0	1	0	0	0
 6970-1	responded	responds	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
 6970-2	25	twenty-five	numbers	11	major	0	0	0	0	0	0	0	1	0	0	0
 6971-1	But this time, no reply came.		deletion	29	major	0	1	0	0	0	0	0	0	0	0	0
-6974-1	Watney:	WATNEY:	capitalization	5	major	0	0	1	0	0	0	0	0	0	0	0
+6974-1	Watney:	WATNEY:	capitalization	5	minor	0	0	1	0	0	0	0	0	0	0	0
 6977-1	30	thirty	numbers	6	major	0	0	0	0	0	0	0	1	0	0	0
 6980-1	an poor-man's	a poor man's	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
-6982-1	Watney:	WATNEY:	capitalization	5	major	0	0	1	0	0	0	0	0	0	0	0
+6982-1	Watney:	WATNEY:	capitalization	5	minor	0	0	1	0	0	0	0	0	0	0	0
 6983-1	00h31 m	00h31m	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 6984-1	26hl7 m	26hl7m	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 6985-1	04h24 m	04h24m	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
@@ -3128,18 +3128,18 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 7024-1	somewhere else...	Somewhere else....	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
 7025-1	time...	time....	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 7029-1	the	to	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
-7030-1	3	three	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+7030-1	3	three	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 7032-1	it.		deletion	3	minor	0	1	0	0	0	0	0	0	0	0	0
 7033-1	Still,	it, but	xxTBCxx	6	major	0	0	0	0	0	0	0	0	0	0	1
 7033-2	of	of.	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 7034-1	remained; enough	remained-enough	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
 7036-1	13:30,1	13:30, I	numbers	2	minor	0	0	0	0	0	0	0	1	0	0	0
 7040-1		had	insertion	3	minor	1	0	0	0	0	0	0	0	0	0	0
-7041-1	positive,	positive lead,	expansion	5	major	0	0	0	0	0	0	0	0	0	1	0
+7041-1	positive,	positive lead,	expansion	5	minor	0	0	0	0	0	0	0	0	0	1	0
 7043-1	nine thousand	9000	numbers	13	major	0	0	0	0	0	0	0	1	0	0	0
 7044-1	too	top	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
 7048-1	Chapter	CHAPTER	capitalization	6	major	0	0	1	0	0	0	0	0	0	0	0
-7051-1	to plan,	as planned,	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+7051-1	to plan,	as planned,	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 7056-1	Ok,	Okay,	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
 7058-1	be		deletion	2	minor	0	1	0	0	0	0	0	0	0	0	0
 7061-1	Code	code	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
@@ -3205,12 +3205,12 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 7161-1	RTG!	R'l'GI	xxTBCxx	4	minor	0	0	0	0	0	0	0	0	0	0	1
 7164-1	Plutonium	plutonium	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 7164-2	heat	heat,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
-7164-3	W	watts	expansion	5	major	0	0	0	0	0	0	0	0	0	1	0
+7164-3	W	watts	expansion	5	minor	0	0	0	0	0	0	0	0	0	1	0
 7164-4	electricity.	electricity,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
-7164-5	W?	watts?	expansion	5	major	0	0	0	0	0	0	0	0	0	1	0
+7164-5	W?	watts?	expansion	5	minor	0	0	0	0	0	0	0	0	0	1	0
 7167-1		I'll be taping that back in place because I'll need that heat to warm up the return air from the regulator.	insertion	107	major	1	0	0	0	0	0	0	0	0	0	0
-7169-1	W	watts	expansion	5	major	0	0	0	0	0	0	0	0	0	1	0
-7170-1	W	watts	expansion	5	major	0	0	0	0	0	0	0	0	0	1	0
+7169-1	W	watts	expansion	5	minor	0	0	0	0	0	0	0	0	0	1	0
+7170-1	W	watts	expansion	5	minor	0	0	0	0	0	0	0	0	0	1	0
 7172-1	minutes	minutes,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 7175-1	21.5pn.	21.5 pirate-ninjas.	numbers	12	major	0	0	0	0	0	0	0	1	0	0	0
 7176-1	(drum roll) 1pn.	(drumroll) 1 pirate-ninja.	numbers	12	major	0	0	0	0	0	0	0	1	0	0	0
@@ -3228,7 +3228,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 7211-1	Oxygenator	oxygenator	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 7213-1	18pn	18-pirate-ninja	numbers	11	major	0	0	0	0	0	0	0	1	0	0	0
 7213-2	Oxygenator	oxygenator	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
-7213-3		about	insertion	5	major	1	0	0	0	0	0	0	0	0	0	0
+7213-3		about	insertion	5	minor	1	0	0	0	0	0	0	0	0	0	0
 7215-1	65 sol	sixty-four-sol	numbers	11	major	0	0	0	0	0	0	0	1	0	0	0
 7215-2	91!	ninety-two!	numbers	10	major	0	0	0	0	0	0	0	1	0	0	0
 7216-1	fucking		deletion	7	major	0	1	0	0	0	0	0	0	0	0	0
@@ -3262,14 +3262,14 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 7276-1	seen	Seen	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 7280-1	14	fourteen	numbers	8	major	0	0	0	0	0	0	0	1	0	0	0
 7280-2	kwh	kilowatt-hours	expansion	11	major	0	0	0	0	0	0	0	0	0	1	0
-7282-1	7	seven	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+7282-1	7	seven	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 7283-1	Oxygenator.	oxygenator.	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 7284-1	fucker	bastard	xxTBCxx	6	major	0	0	0	0	0	0	0	0	0	0	1
 7286-1	Oxygenator,	oxygenator,	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 7286-2	"""air-sols."""	"""air sols."""	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 7288-1	Lets	Let's	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 7288-2	14	fourteen	numbers	8	major	0	0	0	0	0	0	0	1	0	0	0
-7288-3	7.	seven.	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+7288-3	7.	seven.	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 7290-1	38pn	thirty-six pirate-ninjas	numbers	22	major	0	0	0	0	0	0	0	1	0	0	0
 7290-2	5.1	five	numbers	4	minor	0	0	0	0	0	0	0	1	0	0	0
 7290-3	air-sol.	air sol.	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
@@ -3300,7 +3300,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 7337-1	21	twenty-one	numbers	10	major	0	0	0	0	0	0	0	1	0	0	0
 7339-1	The	the	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 7341-1	trailer)	trailer),	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
-7342-1	them	the bags	expansion	5	major	0	0	0	0	0	0	0	0	0	1	0
+7342-1	them	the bags	expansion	5	minor	0	0	0	0	0	0	0	0	0	1	0
 7343-1		from	insertion	4	minor	1	0	0	0	0	0	0	0	0	0	0
 7344-1	middrive	mid-drive	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 7345-1	resources	resources,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -3308,7 +3308,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 7351-1		the	insertion	3	minor	1	0	0	0	0	0	0	0	0	0	0
 7355-1	could	can	xxTBCxx	4	minor	0	0	0	0	0	0	0	0	0	0	1
 7356-1	I'd	I'll	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
-7358-1	8	eight	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+7358-1	8	eight	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 7358-2	way.	'way.	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 7364-1	in low-power	in-low-power	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
 7365-1	1 C	1°C	numbers	1	minor	0	0	0	0	0	0	0	1	0	0	0
@@ -3400,7 +3400,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 7553-2	me.	me on my last visit.	expansion	17	major	0	0	0	0	0	0	0	0	0	1	0
 7557-1	He	he	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 7562-1	"""Will"	"""will"	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
-7563-1	said.		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+7563-1	said.		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 7564-1	"""The"	"said, ""the"	expansion	7	major	0	0	0	0	0	0	0	0	0	1	0
 7565-1	"careful,"" She said."	"careful."""	condensation	11	major	0	0	0	0	0	0	0	0	1	0	0
 7570-1		He looked through the glass to Jiuquan's Mission Control Center.	insertion	64	major	1	0	0	0	0	0	0	0	0	0	0
@@ -3485,17 +3485,17 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 7831-1	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 7840-1	on	oh	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
 7842-1	"""It's"	"""it's"	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
-7844-1	m,	meters,	expansion	5	major	0	0	0	0	0	0	0	0	0	1	0
+7844-1	m,	meters,	expansion	5	minor	0	0	0	0	0	0	0	0	0	1	0
 7844-2	"m/s,"""	"meters per second,"""	expansion	15	major	0	0	0	0	0	0	0	0	0	1	0
 7846-1	docking port	Docking Port	capitalization	2	minor	0	0	1	0	0	0	0	0	0	0	0
 7847-1	Johanssen	Johanssen's	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
 7848-1	"""Visual contact,"""		deletion	17	major	0	1	0	0	0	0	0	0	0	0	0
 7851-1	Unit	unit	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 7853-1	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
-7861-1	m,	meters,	expansion	5	major	0	0	0	0	0	0	0	0	0	1	0
+7861-1	m,	meters,	expansion	5	minor	0	0	0	0	0	0	0	0	0	1	0
 7861-2	"m/s."""	"meters per second,"""	expansion	16	major	0	0	0	0	0	0	0	0	0	1	0
 7864-1	"rps."""	"revolutions per second."""	expansion	19	major	0	0	0	0	0	0	0	0	0	1	0
-7869-1	m,	meters,	expansion	5	major	0	0	0	0	0	0	0	0	0	1	0
+7869-1	m,	meters,	expansion	5	minor	0	0	0	0	0	0	0	0	0	1	0
 7869-2	"m/s."""	"meters per second,"""	expansion	16	major	0	0	0	0	0	0	0	0	0	1	0
 7872-1	"1.8... 1.3..."""	1,8 ... 1.3	numbers	6	major	0	0	0	0	0	0	0	1	0	0	0
 7873-1	"m/s."""	"meters per second."""	expansion	15	major	0	0	0	0	0	0	0	0	0	1	0
@@ -3573,7 +3573,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 8056-1	pop tents	pop-tents	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 8056-2	balloon.		deletion	8	major	0	1	0	0	0	0	0	0	0	0	0
 8057-1	The	balloon, but the	expansion	14	major	0	0	0	0	0	0	0	0	0	1	0
-8059-1		to be	insertion	5	major	1	0	0	0	0	0	0	0	0	0	0
+8059-1		to be	insertion	5	minor	1	0	0	0	0	0	0	0	0	0	0
 8060-1	pop tent	pop-tent	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 8063-1		the	insertion	3	minor	1	0	0	0	0	0	0	0	0	0	0
 8063-2	charging)	charging),	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -3589,7 +3589,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 8081-1	So when it's	When I'm	condensation	7	major	0	0	0	0	0	0	0	0	1	0	0
 8081-2	my	the	xxTBCxx	3	minor	0	0	0	0	0	0	0	0	0	0	1
 8084-1	pop tent	pop-tent	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
-8084-2	m	meters	expansion	5	major	0	0	0	0	0	0	0	0	0	1	0
+8084-2	m	meters	expansion	5	minor	0	0	0	0	0	0	0	0	0	1	0
 8087-1	2 meters.	two meters,	numbers	4	minor	0	0	0	0	0	0	0	1	0	0	0
 8092-1	6	six	numbers	3	minor	0	0	0	0	0	0	0	1	0	0	0
 8092-2		up	insertion	2	minor	1	0	0	0	0	0	0	0	0	0	0
@@ -3643,13 +3643,13 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 8237-2		up	insertion	2	minor	1	0	0	0	0	0	0	0	0	0	0
 8237-3	pressure up.	pressure.	xxTBCxx	3	minor	0	0	0	0	0	0	0	0	0	0	1
 8239-1	breathed,	breathed;	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
-8246-1	40	forty	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+8246-1	40	forty	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 8250-1	cause	because	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
 8251-1	It	The bedroom	expansion	11	major	0	0	0	0	0	0	0	0	0	1	0
 8252-1	the bedroom,	it,	condensation	11	major	0	0	0	0	0	0	0	0	1	0	0
 8257-1	Originally	Originally,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 8257-2	it	my bedroom	expansion	10	major	0	0	0	0	0	0	0	0	0	1	0
-8257-3		on it	insertion	5	major	1	0	0	0	0	0	0	0	0	0	0
+8257-3		on it	insertion	5	minor	1	0	0	0	0	0	0	0	0	0	0
 8258-1	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 8258-2	problem:	problem;	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 8259-1	only		deletion	4	minor	0	1	0	0	0	0	0	0	0	0	0
@@ -3661,21 +3661,21 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 8275-1	L	liters	expansion	6	major	0	0	0	0	0	0	0	0	0	1	0
 8276-1	Atmospheric Regulator.	atmospheric regulator.	capitalization	2	minor	0	0	1	0	0	0	0	0	0	0	0
 8278-1	kwh	kilowatt-hours	expansion	11	major	0	0	0	0	0	0	0	0	0	1	0
-8280-1	1400 W	1400-watt	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+8280-1	1400 W	1400-watt	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 8281-1	Homemade	Homemade,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 8282-1	in	iii	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
 8285-1	59	fifty-nine	numbers	10	major	0	0	0	0	0	0	0	1	0	0	0
 8286-1	And	Then	xxTBCxx	4	minor	0	0	0	0	0	0	0	0	0	0	1
 8292-1	myself:	myself,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
-8293-1	3	three	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
-8293-2	bang	drive	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+8293-1	3	three	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
+8293-2	bang	drive	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 8293-3	mistress,	Corvette to the launchpad,	expansion	23	major	0	0	0	0	0	0	0	0	0	1	0
-8293-4	moon.		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+8293-4	moon.		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 8294-1	And if he ever met a botanist like me he'd dispense	moon in	condensation	45	major	0	0	0	0	0	0	0	0	1	0	0
 8294-2	wedgie on principle.		deletion	20	major	0	1	0	0	0	0	0	0	0	0	0
 8295-1	To hell with	command module smaller than my Rover.	expansion	30	major	0	0	0	0	0	0	0	0	0	1	0
 8296-1		Man	insertion	3	minor	1	0	0	0	0	0	0	0	0	0	0
-8296-2	guys.		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+8296-2	guys.		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 8297-1	I'm a Space Pirate!		deletion	19	major	0	1	0	0	0	0	0	0	0	0	0
 8298-1	Chapter	guys were cool.	expansion	13	major	0	0	0	0	0	0	0	0	0	1	0
 8299-1		CHAPTER	insertion	7	major	1	0	0	0	0	0	0	0	0	0	0
@@ -3730,7 +3730,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 8410-1	it	the Hab's mix	expansion	12	major	0	0	0	0	0	0	0	0	0	1	0
 8411-1	L.	liters.	expansion	6	major	0	0	0	0	0	0	0	0	0	1	0
 8412-1	%	percent	expansion	7	major	0	0	0	0	0	0	0	0	0	1	0
-8412-2		put a	insertion	5	major	1	0	0	0	0	0	0	0	0	0	0
+8412-2		put a	insertion	5	minor	1	0	0	0	0	0	0	0	0	0	0
 8413-1	Regulator	regulator	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 8413-2	Oxygenator	oxygenator	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 8415-1	"required""."	"required."""	punctuation	2	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -3760,11 +3760,11 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 8444-2	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 8444-3	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 8445-1	shit-fit	shit fit	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
-8455-1	I did	I'd done	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+8455-1	I did	I'd done	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 8457-1	CO2 I	CO21	numbers	2	minor	0	0	0	0	0	0	0	1	0	0	0
 8458-1	I	I'll	xxTBCxx	3	minor	0	0	0	0	0	0	0	0	0	0	1
 8458-2	Sol.		deletion	4	minor	0	1	0	0	0	0	0	0	0	0	0
-8459-1	"""Live"	sol.	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+8459-1	"""Live"	sol.	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 8460-1		Live	insertion	4	minor	1	0	0	0	0	0	0	0	0	0	0
 8460-2	"Sol"""	Sol	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 8465-1	trip	trip,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -3805,7 +3805,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 8521-1	Each	After that, things get rough.	expansion	27	major	0	0	0	0	0	0	0	0	0	1	0
 8522-1		Unlike Acidalia Planitia, Arabia Terra is riddled with craters.	insertion	63	major	1	0	0	0	0	0	0	0	0	0	0
 8523-1		And each	insertion	8	major	1	0	0	0	0	0	0	0	0	0	0
-8529-1	there:	present:	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+8529-1	there:	present:	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 8530-1	Park	Park,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 8535-1	"date."""	"date?"""	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 8543-1	Also	Also,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -3893,7 +3893,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 8779-1	relax the rest of the day.	relax.	condensation	20	major	0	0	0	0	0	0	0	0	1	0	0
 8780-1	70's	seventies	numbers	8	major	0	0	0	0	0	0	0	1	0	0	0
 8782-1	"Day""."	"Day."""	punctuation	2	minor	0	0	0	0	0	1	0	0	0	0	0
-8783-1	4 hour	four-hour	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+8783-1	4 hour	four-hour	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 8784-1	Oxygenator	oxygenator	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 8784-2		that	insertion	4	minor	1	0	0	0	0	0	0	0	0	0	0
 8784-3	Regulator	regulator	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
@@ -3978,15 +3978,15 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 8969-1	timestamp	time stamp	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 8971-1	Code	code,	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
 8972-1	Opening	She opened	xxTBCxx	8	major	0	0	0	0	0	0	0	0	0	0	1
-8972-2	email, she	e-mail and	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+8972-2	email, she	e-mail and	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 8973-1	495	494	numbers	1	minor	0	0	0	0	0	0	0	1	0	0	0
 8974-1	5	five	numbers	4	minor	0	0	0	0	0	0	0	1	0	0	0
 8974-2	Tau Event	dust storm	xxTBCxx	9	major	0	0	0	0	0	0	0	0	0	0	1
 8980-1	an	ah	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
 8983-1	Adicalia	Acidalia	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
-8983-2	m	meters	expansion	5	major	0	0	0	0	0	0	0	0	0	1	0
-8983-3	m	meters	expansion	5	major	0	0	0	0	0	0	0	0	0	1	0
-8985-1	what's at	what	condensation	5	major	0	0	0	0	0	0	0	0	1	0	0
+8983-2	m	meters	expansion	5	minor	0	0	0	0	0	0	0	0	0	1	0
+8983-3	m	meters	expansion	5	minor	0	0	0	0	0	0	0	0	0	1	0
+8985-1	what's at	what	condensation	5	minor	0	0	0	0	0	0	0	0	1	0	0
 8985-2	zero?	zero means?	expansion	6	major	0	0	0	0	0	0	0	0	0	1	0
 8988-1	Pascals.	pascals.	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 8991-1	In	Back in	expansion	6	major	0	0	0	0	0	0	0	0	0	1	0
@@ -4012,10 +4012,10 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 9048-1	I	I'll	xxTBCxx	3	minor	0	0	0	0	0	0	0	0	0	0	1
 9052-1	him.		deletion	4	minor	0	1	0	0	0	0	0	0	0	0	0
 9053-1	Carefully opening	him and carefully opened	expansion	12	major	0	0	0	0	0	0	0	0	0	1	0
-9053-2	package, she	package.	condensation	5	major	0	0	0	0	0	0	0	0	1	0	0
+9053-2	package, she	package.	condensation	5	minor	0	0	0	0	0	0	0	0	1	0	0
 9054-1		She decided to	insertion	14	major	1	0	0	0	0	0	0	0	0	0	0
 9054-2	for		deletion	3	minor	0	1	0	0	0	0	0	0	0	0	0
-9054-3	moment	bit	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+9054-3	moment	bit	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 9064-1	50 km in to	fifty kilometers into	numbers	14	major	0	0	0	0	0	0	0	1	0	0	0
 9064-2	90 km	ninety kilometers	numbers	14	major	0	0	0	0	0	0	0	1	0	0	0
 9076-1	"son-of-a-bitch."""	"son of a bitch."""	hyphenation	3	minor	0	0	0	0	0	0	1	0	0	0	0
@@ -4044,7 +4044,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 9151-1	south, and they'll	south.	condensation	13	major	0	0	0	0	0	0	0	0	1	0	0
 9152-1		One of them will probably	insertion	25	major	1	0	0	0	0	0	0	0	0	0	0
 9152-2	about	better than	expansion	10	major	0	0	0	0	0	0	0	0	0	1	0
-9152-3	same.		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+9152-3	same.		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 9153-1	It'll cost at least a day to correct.		deletion	37	major	0	1	0	0	0	0	0	0	0	0	0
 9154-1	All	other,	xxTBCxx	6	major	0	0	0	0	0	0	0	0	0	0	1
 9154-2	I aimed wrong yesterday.		deletion	24	major	0	1	0	0	0	0	0	0	0	0	0
@@ -4071,7 +4071,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 9213-1	5-minute	five-minute	numbers	4	minor	0	0	0	0	0	0	0	1	0	0	0
 9214-1	Now	Novi?	xxTBCxx	3	minor	0	0	0	0	0	0	0	0	0	0	1
 9220-1	2:10pm.	2:10 p.m.	numbers	2	minor	0	0	0	0	0	0	0	1	0	0	0
-9223-1	40	forty	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+9223-1	40	forty	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 9228-1	recharging.	recharging,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 9230-1		the	insertion	3	minor	1	0	0	0	0	0	0	0	0	0	0
 9232-1	Reading	As she read	expansion	10	major	0	0	0	0	0	0	0	0	0	1	0
@@ -4105,7 +4105,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 9300-1	Just in case I had to repair the rover en-route.		deletion	48	major	0	1	0	0	0	0	0	0	0	0	0
 9301-1	I made the bedroom in to a lab.		deletion	31	major	0	1	0	0	0	0	0	0	0	0	0
 9302-1	I stacked my supply containers to form a rudimentary table, and used a sample box as a stool.	storm,	condensation	87	major	0	0	0	0	0	0	0	0	1	0	0
-9303-1	track	log	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+9303-1	track	log	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 9303-2	the	each	xxTBCxx	4	minor	0	0	0	0	0	0	0	0	0	0	1
 9304-1	The tricky part is logging it.	One of the cells would be with me, but the other two would be dropped off and left far away.	expansion	78	major	0	0	0	0	0	0	0	0	0	1	0
 9305-1	is	was	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
@@ -4113,7 +4113,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 9307-1	is they		deletion	7	major	0	1	0	0	0	0	0	0	0	0	0
 9308-1	a camera	one	condensation	7	major	0	0	0	0	0	0	0	0	1	0	0
 9308-2	left handed),	left-handed)	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
-9308-3	one	another	expansion	5	major	0	0	0	0	0	0	0	0	0	1	0
+9308-3	one	another	expansion	5	minor	0	0	0	0	0	0	0	0	0	1	0
 9309-1	time-stamp	time stamp	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 9309-2	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 9309-3		on	insertion	2	minor	1	0	0	0	0	0	0	0	0	0	0
@@ -4125,7 +4125,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 9320-1	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 9323-1	it	my logger	expansion	9	major	0	0	0	0	0	0	0	0	0	1	0
 9324-1	Well, it turns out it's going to	It'll	condensation	30	major	0	0	0	0	0	0	0	0	1	0	0
-9324-2	2 square meter	two-square-meter	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+9324-2	2 square meter	two-square-meter	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 9324-3	cell.	cell!	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 9325-1	be plenty.	provide plenty of power.	expansion	15	major	0	0	0	0	0	0	0	0	0	1	0
 9327-1	is	was	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
@@ -4163,8 +4163,8 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 9373-1	5	five	numbers	4	minor	0	0	0	0	0	0	0	1	0	0	0
 9374-1	29	twenty-nine	numbers	11	major	0	0	0	0	0	0	0	1	0	0	0
 9374-2	left	left,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
-9374-3	Schiaparelli.	Schiaparelli, but	expansion	5	major	0	0	0	0	0	0	0	0	0	1	0
-9374-4	9	a few	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+9374-3	Schiaparelli.	Schiaparelli, but	expansion	5	minor	0	0	0	0	0	0	0	0	0	1	0
+9374-4	9	a few	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 9375-1	half-way	halfway	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 9377-1	storm.	storm?	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 9378-1	die,	die.	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -4200,7 +4200,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 9435-1	km	kilometers	expansion	8	major	0	0	0	0	0	0	0	0	0	1	0
 9440-1		far enough	insertion	10	major	1	0	0	0	0	0	0	0	0	0	0
 9440-2	enough		deletion	6	major	0	1	0	0	0	0	0	0	0	0	0
-9442-1		south	insertion	5	major	1	0	0	0	0	0	0	0	0	0	0
+9442-1		south	insertion	5	minor	1	0	0	0	0	0	0	0	0	0	0
 9442-2	goes south?	goes?	condensation	6	major	0	0	0	0	0	0	0	0	1	0	0
 9451-1	%.	percent.	expansion	7	major	0	0	0	0	0	0	0	0	0	1	0
 9453-1	the	.the	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -4255,7 +4255,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 9510-1	pop tent	pop-tent	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 9510-2	rover,	rover	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 9510-3	re-attaches	reattaches	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
-9512-1	3	three	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+9512-1	3	three	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 9514-1	Oxygenator	oxygenator	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 9514-2	Atmospheric Regulator.	atmospheric regulator.	capitalization	2	minor	0	0	1	0	0	0	0	0	0	0	0
 9518-1	fuckton	shitload	xxTBCxx	7	major	0	0	0	0	0	0	0	0	0	0	1
@@ -4265,7 +4265,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 9523-1	I just needed swaths of	that.	condensation	20	major	0	0	0	0	0	0	0	0	1	0	0
 9524-1		The	insertion	3	minor	1	0	0	0	0	0	0	0	0	0	0
 9524-2	so I stole it from wherever I could.		deletion	36	major	0	1	0	0	0	0	0	0	0	0	0
-9524-3	a lot		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+9524-3	a lot		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 9524-4	the pop tents, and they had	it has	condensation	23	major	0	0	0	0	0	0	0	0	1	0	0
 9524-5	(triple redundant	(triple-redundant	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 9525-1	emergency shelter allows the crew on	Hab could be refilled from	condensation	28	major	0	0	0	0	0	0	0	0	1	0	0
@@ -4279,7 +4279,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 9532-3	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 9535-1	crater		deletion	6	major	0	1	0	0	0	0	0	0	0	0	0
 9539-1	Day	Day,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
-9543-1	3	three	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+9543-1	3	three	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 9543-2	MAV,	MAV;	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 9547-1	km	kilometers	expansion	8	major	0	0	0	0	0	0	0	0	0	1	0
 9548-1	Crater,	Grater,	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
@@ -4342,14 +4342,14 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 9678-2	20	twenty	numbers	6	major	0	0	0	0	0	0	0	1	0	0	0
 9681-1	km.	kilometers.	expansion	8	major	0	0	0	0	0	0	0	0	0	1	0
 9684-1	51	fifty-one	numbers	9	major	0	0	0	0	0	0	0	1	0	0	0
-9690-1	3	three	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+9690-1	3	three	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 9692-1	out		deletion	3	minor	0	1	0	0	0	0	0	0	0	0	0
 9693-1		Luckily,	insertion	8	major	1	0	0	0	0	0	0	0	0	0	0
 9693-2	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 9694-1	28	twenty-eight	numbers	12	major	0	0	0	0	0	0	0	1	0	0	0
 9694-2	29 (14	twenty-nine (fourteen	numbers	19	major	0	0	0	0	0	0	0	1	0	0	0
-9694-3	7	seven	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
-9694-4	8	eight	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+9694-3	7	seven	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
+9694-4	8	eight	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 9694-5	vehicles.)	vehicles).	punctuation	2	minor	0	0	0	0	0	1	0	0	0	0	0
 9699-1	fucked	ruined	xxTBCxx	3	minor	0	0	0	0	0	0	0	0	0	0	1
 9703-1	upside-down	upside down	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
@@ -4385,7 +4385,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 9823-1	up.	up,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 9823-2	in to.	into.	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 9825-1	by	meter across,	expansion	13	major	0	0	0	0	0	0	0	0	0	1	0
-9825-2	meters,	meters wide,	expansion	5	major	0	0	0	0	0	0	0	0	0	1	0
+9825-2	meters,	meters wide,	expansion	5	minor	0	0	0	0	0	0	0	0	0	1	0
 9828-1	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 9829-1	on to	onto	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 9830-1		had	insertion	3	minor	1	0	0	0	0	0	0	0	0	0	0
@@ -4396,7 +4396,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 9843-1	Nothin' Tea	tea	condensation	8	major	0	0	0	0	0	0	0	0	1	0	0
 9845-1	Potato Skin Tea	potato skin tea	capitalization	3	minor	0	0	1	0	0	0	0	0	0	0	0
 9847-1	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
-9850-1	in there.	inside.	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+9850-1	in there.	inside.	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 9852-1	Atmospheric Regulator	atmospheric regulator	capitalization	2	minor	0	0	1	0	0	0	0	0	0	0	0
 9852-2	do.	do,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 9853-1	perfect, why	perfect-why	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
@@ -4407,7 +4407,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 9863-1	was	has	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
 9869-1	tires.	wheels.	xxTBCxx	4	minor	0	0	0	0	0	0	0	0	0	0	1
 9871-1	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
-9875-1	As	But as	expansion	5	major	0	0	0	0	0	0	0	0	0	1	0
+9875-1	As	But as	expansion	5	minor	0	0	0	0	0	0	0	0	0	1	0
 9877-1	fender-bender	fender bender	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 9877-2	4	four	numbers	4	minor	0	0	0	0	0	0	0	1	0	0	0
 9880-1	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
@@ -4416,14 +4416,14 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 9885-1	I		deletion	1	minor	0	1	0	0	0	0	0	0	0	0	0
 9886-1	The	the	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 9889-1	"""lovemaking""."	"""lovemaking."""	punctuation	2	minor	0	0	0	0	0	1	0	0	0	0	0
-9894-1	And believe	Believe	condensation	5	major	0	0	0	0	0	0	0	0	1	0	0
+9894-1	And believe	Believe	condensation	5	minor	0	0	0	0	0	0	0	0	1	0	0
 9894-2	Botanist / Mechanical Engineer	botanist/mechanical-engineer	xxTBCxx	6	major	0	0	0	0	0	0	0	0	0	0	1
 9900-1	I	I'll	xxTBCxx	3	minor	0	0	0	0	0	0	0	0	0	0	1
 9901-1	I've	I'Ve	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 9902-1	40 km.	45 kilometers.	numbers	9	major	0	0	0	0	0	0	0	1	0	0	0
 9903-1	bottom.		deletion	7	major	0	1	0	0	0	0	0	0	0	0	0
 9904-1	It should take	bottom in	condensation	12	major	0	0	0	0	0	0	0	0	1	0	0
-9904-2	8	eight	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+9904-2	8	eight	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 9907-1	bee-lining	beelining	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 9907-2	MAV,	M AV,	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 9913-1	"""So"	"""So,"	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -4441,8 +4441,8 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 9944-1	"communication?"""	"communications?"""	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
 9945-1	mission control	Mission Control	capitalization	2	minor	0	0	1	0	0	0	0	0	0	0	0
 9946-1	"control room 2""."	"Control Room 2."""	numbers	4	minor	0	0	0	0	0	0	0	1	0	0	0
-9951-1	8-hour	eight-hour	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
-9953-1	would		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+9951-1	8-hour	eight-hour	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
+9953-1	would		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 9953-2	drive,	drove,	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
 9956-1	10	ten	numbers	3	minor	0	0	0	0	0	0	0	1	0	0	0
 9956-2	2,	two,	numbers	3	minor	0	0	0	0	0	0	0	1	0	0	0
@@ -4464,7 +4464,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 10002-1	Unlike my worn out shit, the	The	condensation	26	major	0	0	0	0	0	0	0	0	1	0	0
 10003-1	Hab	Hab,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 10009-1	It has three redundant methods of communicating with Earth, but they're extremely directed and are designed for line-of-sight communication.		deletion	140	major	0	1	0	0	0	0	0	0	0	0	0
-10010-1	say, but	say when	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+10010-1	say, but	say when	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 10011-1	Well,	The MAV has three redundant methods of communicating with Earth, but they're all extremely directed and are designed for line-of-sight communication.	expansion	146	major	0	0	0	0	0	0	0	0	0	1	0
 10012-1		And	insertion	3	minor	1	0	0	0	0	0	0	0	0	0	0
 10016-1	added	added,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -4515,7 +4515,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 10104-1	water	water,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 10105-1	can electrolyze urine, so we		deletion	28	major	0	1	0	0	0	0	0	0	0	0	0
 10105-2	need to set a few	needs fifty	condensation	10	major	0	0	0	0	0	0	0	0	1	0	0
-10105-3	aside		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+10105-3	aside		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 10105-4	"last couple of days."""	time he has left.	condensation	17	major	0	0	0	0	0	0	0	0	1	0	0
 10106-1		And a human body only borrows water. We'll have him electrolyze his urine, too.	insertion	79	major	1	0	0	0	0	0	0	0	0	0	0
 10107-1		"We need all the hydrogen we can get our hands on."""	insertion	50	major	1	0	0	0	0	0	0	0	0	0	0
@@ -4531,13 +4531,13 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 10122-1	500 kg	five hundred kilograms	numbers	19	major	0	0	0	0	0	0	0	1	0	0	0
 10125-1	500 kg	five hundred kilograms	numbers	19	major	0	0	0	0	0	0	0	1	0	0	0
 10126-1	5	five	numbers	4	minor	0	0	0	0	0	0	0	1	0	0	0
-10127-1	gear.		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+10127-1	gear.		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 10128-1	The	gear-the	expansion	6	major	0	0	0	0	0	0	0	0	0	1	0
 10136-1	"use any controls,"""	"be using them,"""	xxTBCxx	13	major	0	0	0	0	0	0	0	0	0	0	1
 10146-1	ok. Go	okay, go	xxTBCxx	4	minor	0	0	0	0	0	0	0	0	0	0	1
 10147-1	any of those	the	condensation	9	major	0	0	0	0	0	0	0	0	1	0	0
 10153-1	Orbital Maneuvering System	orbital maneuvering system	capitalization	3	minor	0	0	1	0	0	0	0	0	0	0	0
-10153-2	3	three	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+10153-2	3	three	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 10158-1	remote controlled	remote-controlled	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 10164-1	know, Venkat.	know.	condensation	8	major	0	0	0	0	0	0	0	0	1	0	0
 10169-1	"19."""	"Nineteen."""	numbers	8	major	0	0	0	0	0	0	0	1	0	0	0
@@ -4557,7 +4557,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 10224-1	[09:24]HOUSTON:	[09:24] HOUSTON:	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 10226-1	[09:38]MAV:	[09:38] MAV:	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 10231-1	Regulator	regulator	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
-10231-2	Oxygenator,	the oxygenator,	expansion	5	major	0	0	0	0	0	0	0	0	0	1	0
+10231-2	Oxygenator,	the oxygenator,	expansion	5	minor	0	0	0	0	0	0	0	0	0	1	0
 10232-1	idea	idea,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 10236-1	only way to get	getting	condensation	13	major	0	0	0	0	0	0	0	0	1	0	0
 10236-2		going to be	insertion	11	major	1	0	0	0	0	0	0	0	0	0	0
@@ -4565,8 +4565,8 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 10239-1		,	insertion	1	minor	1	0	0	0	0	0	0	0	0	0	0
 10241-1	43	forty-three	numbers	11	major	0	0	0	0	0	0	0	1	0	0	0
 10252-1	Regulator	regulator	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
-10252-2	Oxygenator	the oxygenator	expansion	5	major	0	0	0	0	0	0	0	0	0	1	0
-10252-3	less than peak	at less-than-peak	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+10252-2	Oxygenator	the oxygenator	expansion	5	minor	0	0	0	0	0	0	0	0	0	1	0
+10252-3	less than peak	at less-than-peak	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 10252-4	least)	least),	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 10264-1	engine 3	Engine Three	numbers	6	major	0	0	0	0	0	0	0	1	0	0	0
 10270-1	drill.		deletion	6	major	0	1	0	0	0	0	0	0	0	0	0
@@ -4587,7 +4587,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 10281-1	We'd	landing; a cut-our-losses scenario where we'd	expansion	42	major	0	0	0	0	0	0	0	0	0	1	0
 10281-2	have it		deletion	7	major	0	1	0	0	0	0	0	0	0	0	0
 10282-1	"was a cut-your-losses scenario."""		deletion	32	major	0	1	0	0	0	0	0	0	0	0	0
-10283-1	"""It's"	wasn't	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+10283-1	"""It's"	wasn't	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 10283-2	"now,"" Lewis said."		deletion	17	major	0	1	0	0	0	0	0	0	0	0	0
 10284-1	"""So"	so they didn't drill you too hard on it.	expansion	39	major	0	0	0	0	0	0	0	0	0	1	0
 10285-1		Now that Mark's life depends on it, you've got three weeks to	insertion	61	major	1	0	0	0	0	0	0	0	0	0	0
@@ -4622,9 +4622,9 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 10329-2	intercept	intercept,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 10329-3	12	twelve	numbers	6	major	0	0	0	0	0	0	0	1	0	0	0
 10330-1	out	out,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
-10331-1	40	forty	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+10331-1	40	forty	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 10332-1	2	two	numbers	3	minor	0	0	0	0	0	0	0	1	0	0	0
-10332-2	40	forty	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+10332-2	40	forty	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 10334-1	214	two hundred and fourteen	numbers	24	major	0	0	0	0	0	0	0	1	0	0	0
 10335-1	corrected.	said.	condensation	8	major	0	0	0	0	0	0	0	0	1	0	0
 10341-1	"this."""	"this,"""	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
@@ -4644,8 +4644,8 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 10365-2	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 10369-1	back-filled	backfilled	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 10369-2	one fourth	one-fourth	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
-10370-1	urine	water	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
-10372-1	urine	water	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+10370-1	urine	water	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
+10372-1	urine	water	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 10372-2	an piss-based	a steamy	condensation	9	major	0	0	0	0	0	0	0	0	1	0	0
 10374-1	Over time, it reduced the urine to a really gross sludge as it pulled the water out.		deletion	84	major	0	1	0	0	0	0	0	0	0	0	0
 10377-1	Atmospheric Regulator.		deletion	22	major	0	1	0	0	0	0	0	0	0	0	0
@@ -4658,12 +4658,12 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 10382-1	oxygen.		deletion	7	major	0	1	0	0	0	0	0	0	0	0	0
 10383-1	So	oxygen, so	expansion	9	major	0	0	0	0	0	0	0	0	0	1	0
 10384-1	opened	cycled	xxTBCxx	4	minor	0	0	0	0	0	0	0	0	0	0	1
-10384-2	inner	rover's	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+10384-2	inner	rover's	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 10384-3		with the inner	insertion	14	major	1	0	0	0	0	0	0	0	0	0	0
 10384-4	and had	open.	xxTBCxx	7	major	0	0	0	0	0	0	0	0	0	0	1
 10385-1		The airlock thought it was evacuating itself, but	insertion	49	major	1	0	0	0	0	0	0	0	0	0	0
 10385-2	evacuate	was actually evacuating	expansion	16	major	0	0	0	0	0	0	0	0	0	1	0
-10385-3		whole	insertion	5	major	1	0	0	0	0	0	0	0	0	0	0
+10385-3		whole	insertion	5	minor	1	0	0	0	0	0	0	0	0	0	0
 10386-1	It pumped all the	The	condensation	15	major	0	0	0	0	0	0	0	0	1	0	0
 10386-2		was stored	insertion	10	major	1	0	0	0	0	0	0	0	0	0	0
 10386-3	to		deletion	2	minor	0	1	0	0	0	0	0	0	0	0	0
@@ -4693,7 +4693,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 10414-1	[19:28]MAV:	[19:28] HAV:	numbers	2	minor	0	0	0	0	0	0	0	1	0	0	0
 10419-1	Mars-G	Mars-g	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 10420-1	[19:29]JOHANSSEN:	[19:29] JOHANSSEN:	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
-10421-1	body.		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+10421-1	body.		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 10422-1	[19:29]JOHANSSEN:	body..	numbers	17	major	0	0	0	0	0	0	0	1	0	0	0
 10423-1		[19:29] JOHANSSEN:	insertion	18	major	1	0	0	0	0	0	0	0	0	0	0
 10426-1	[19:29]MAV:	[19:29] MAV:	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
@@ -4713,7 +4713,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 10468-1	52	fifty-two	numbers	9	major	0	0	0	0	0	0	0	1	0	0	0
 10471-1	12	twelve	numbers	6	major	0	0	0	0	0	0	0	1	0	0	0
 10482-1	him,	him.	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
-10483-1	said.		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+10483-1	said.		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 10484-1	"""24"	said as the others floated	numbers	26	major	0	0	0	0	0	0	0	1	0	0	0
 10485-1		out.	insertion	4	minor	1	0	0	0	0	0	0	0	0	0	0
 10486-1		"""Twenty-four"	insertion	12	major	1	0	0	0	0	0	0	0	0	0	0
@@ -4724,7 +4724,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 10491-2	Timekeeper.	timekeeper.	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 10493-1	"""16"	"""Sixteen"	numbers	7	major	0	0	0	0	0	0	0	1	0	0	0
 10493-2	9	nine	numbers	4	minor	0	0	0	0	0	0	0	1	0	0	0
-10493-3	40	forty	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+10493-3	40	forty	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 10496-1	Director	director	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 10499-1	Director	director	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 10502-1	"sleep, boss,"""	"sleep Boss,"""	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
@@ -4740,7 +4740,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 10531-1	shitting	shitting,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 10532-1	4	four	numbers	4	minor	0	0	0	0	0	0	0	1	0	0	0
 10542-1	41	forty-one	numbers	9	major	0	0	0	0	0	0	0	1	0	0	0
-10544-1	from	during	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+10544-1	from	during	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 10544-2	entire		deletion	6	major	0	1	0	0	0	0	0	0	0	0	0
 10547-1	some day	someday	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0
 10559-1	me. If	me, but if	expansion	6	major	0	0	0	0	0	0	0	0	0	1	0
@@ -4801,7 +4801,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 10626-1	control,	Control,	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 10628-1	10	ten	numbers	3	minor	0	0	0	0	0	0	0	1	0	0	0
 10630-1	that,	that.	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
-10632-1	"flight,"" came"	"Flight"" was"	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+10632-1	"flight,"" came"	"Flight"" was"	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 10634-1	"""But"	"""but"	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 10637-1	there,	there.	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 10639-1	G's.	g's.	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
@@ -4809,10 +4809,10 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 10642-1	"barrel-rolls."""	"barrel rolls."""	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 10649-1		of	insertion	2	minor	1	0	0	0	0	0	0	0	0	0	0
 10653-1	to	at	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
-10666-1	"""Doctor"	"""Dr."	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+10666-1	"""Doctor"	"""Dr."	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 10666-2	"""The Commander"	"""the commander"	capitalization	2	minor	0	0	1	0	0	0	0	0	0	0	0
 10667-1	Commander	commander	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
-10669-1	Doctor	Dr.	xxTBCxx	5	major	0	0	0	0	0	0	0	0	0	0	1
+10669-1	Doctor	Dr.	xxTBCxx	5	minor	0	0	0	0	0	0	0	0	0	0	1
 10670-1	"ok."""	"okay."""	xxTBCxx	2	minor	0	0	0	0	0	0	0	0	0	0	1
 10671-1	"Commander."""	"commander."""	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 10676-1	"10,"""	"ten,"""	numbers	3	minor	0	0	0	0	0	0	0	1	0	0	0
@@ -4883,7 +4883,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 10867-1	like	like,	punctuation	1	minor	0	0	0	0	0	1	0	0	0	0	0
 10867-2	18	eighteen	numbers	8	major	0	0	0	0	0	0	0	1	0	0	0
 10870-1	"""32"	"""Thirty-two"	numbers	10	major	0	0	0	0	0	0	0	1	0	0	0
-10876-1	great		deletion	5	major	0	1	0	0	0	0	0	0	0	0	0
+10876-1	great		deletion	5	minor	0	1	0	0	0	0	0	0	0	0	0
 10876-2	horizon	crater-pocked surface	expansion	19	major	0	0	0	0	0	0	0	0	0	1	0
 10876-3	forever as the wispy	forever, its thin	xxTBCxx	9	major	0	0	0	0	0	0	0	0	0	0	1
 10876-4	gave it		deletion	7	major	0	1	0	0	0	0	0	0	0	0	0
@@ -4964,7 +4964,7 @@ itemid	version1	version2	maintype	levenshtein	ld-class	insertion	deletion	capita
 11114-1	pure oxygen	pure-oxygen	hyphenation	1	minor	0	0	0	0	0	0	1	0	0	0	0
 11114-2	Joules	joules	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
 11114-3	force	Force	capitalization	1	minor	0	0	1	0	0	0	0	0	0	0	0
-11114-4	8	eight	numbers	5	major	0	0	0	0	0	0	0	1	0	0	0
+11114-4	8	eight	numbers	5	minor	0	0	0	0	0	0	0	1	0	0	0
 11120-1	trus	true	xxTBCxx	1	minor	0	0	0	0	0	0	0	0	0	0	1
 11121-1		beaker's	insertion	8	major	1	0	0	0	0	0	0	0	0	0	0
 11123-1	in to	into	whitespace	1	minor	0	0	0	1	0	0	0	0	0	0	0

@@ -127,7 +127,7 @@ def perform_itemanalysis(itemdata, item1, item2):
         itemdata["maintype"] = "xxTBCxx"
     levenshtein = ld.distance(item1, item2)
     itemdata["levenshtein"] = levenshtein
-    if levenshtein > 4: 
+    if levenshtein > 5: 
         itemdata["ld-class"] = "major"
     else: 
         itemdata["ld-class"] = "minor"
