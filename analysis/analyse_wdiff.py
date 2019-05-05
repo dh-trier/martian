@@ -108,32 +108,32 @@ def perform_itemanalysis(itemdata, item1, item2):
     elif re.sub(" ","",item1) == re.sub(" ","",item2): 
         itemdata["whitespace"] = 1
         itemdata["main-type"] = "whitespace"
-        itemdata["category"] = "script identifiable"
+        itemdata["category"] = "script-identifiable"
     # Test for difference in italics
     elif re.sub("\*","",item1) == re.sub("\*","",item2): 
         itemdata["italics"] = 1
         itemdata["main-type"] = "italics"
-        itemdata["category"] = "script identifiable"
+        itemdata["category"] = "script-identifiable"
     # Test for difference in punctuation
     elif re.sub("[\",';:!?\.\(\)]","",item1) == re.sub("[\",';:!?\.\(\)]","",item2): 
         itemdata["punctuation"] = 1
         itemdata["main-type"] = "punctuation"
-        itemdata["category"] = "script identifiable"
+        itemdata["category"] = "script-identifiable"
     # Test for difference in hyphenation
     elif re.sub("\-","",item1) == re.sub(" ","",item2): 
         itemdata["hyphenation"] = 1
         itemdata["main-type"] = "hyphenation"
-        itemdata["category"] = "script identifiable"
+        itemdata["category"] = "script-identifiable"
     # Test for difference in hyphenation
     elif re.sub(" ","",item1) == re.sub("\-","",item2): 
         itemdata["hyphenation"] = 1
         itemdata["main-type"] = "hyphenation"
-        itemdata["category"] = "script identifiable"
+        itemdata["category"] = "script-identifiable"
     # Test for difference involving (but not limited to) numbers
     elif bool(re.search(r'\d', item1+item2)) == True:
         itemdata["numbers"] = 1
         itemdata["main-type"] = "numbers"
-        itemdata["category"] = "script identifiable"
+        itemdata["category"] = "script-identifiable"
     # Test for whether the length is substantially reduced
     elif len(item1) > len(item2)+3:
         itemdata["condensation"] = 1
